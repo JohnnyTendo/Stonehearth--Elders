@@ -1,0 +1,28 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.brightbell_transmute_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.brightbell_transmute_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.herbalist.recipes.brightbell_transmute_recipe.flavor)",
+   "portrait": "/stonehearth/entities/plants/brightbell_plant/seed/brightbell_plant_seed.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:resources:herb:brightbell",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:plants:brightbell:seed"
+      },
+      {
+         "item": "stonehearth:plants:brightbell:seed"
+      },
+      {
+         "item": "stonehearth:plants:brightbell:seed"
+      }
+   ]
+}

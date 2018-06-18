@@ -1,0 +1,286 @@
+{
+   "display_name": "i18n(elders:data.elders_population.display_name)",
+   "kingdom_id": "elders",
+   "favored_biome": "stonehearth:biome:temperate",
+   "quote": "i18n(elders:kingdom.quote)",
+   "description": "i18n(elders:kingdom.long_description)",
+   "post_selection_description": "i18n(elders:kingdom.post_selection_description)",
+   "image": "/elders/data/images/elders_400x300.png",
+   "story_board_image": "/elders/data/images/story_board_image.png",
+   "starting_talisman": "stonehearth:carpenter:talisman",
+   "starting_resource": "stonehearth:resources:wood:oak_log",
+   "initial_town_name": "i18n(elders:kingdom.initial_town_name)",
+   "camp_standard": "elders:camp_standard",
+   "job_index": "elders:jobs:index",
+   "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
+  "roles": {
+      "default": {
+         "male": {
+            "uri": [
+               "elders:oread"
+            ],
+            "given_names": [
+				"Britomartis",
+				"Claea",
+				"Cyllene",
+				"Daphnis",
+				"Echo",
+				"Adrasteia",
+				"Cynosura",
+				"Helike",
+				"Ida",
+				"Oenone",
+				"Nomia",
+				"Othreis",
+				"Sinoe",
+				"Sphragit",
+				"Cithaeron"
+            ]
+         },
+         "female": {
+            "uri": [
+               "elders:dryad"
+            ],
+            "given_names": [
+              "Aigeiros",
+			  "Ampelos",
+			  "Balanos",
+			  "Karya",
+			  "Kraneia",
+			  "Orea",
+			  "Ptelea",
+			  "Syke",
+			  "Daphne",
+			  "Hamadryas"
+            ]
+         },
+         "surnames": [
+            "Abate",
+			"Abba",
+			"Abt",
+			"Alekseev",
+			"Alesci",
+			"Ambrogi",
+			"Andela",
+			"Anson",
+			"Argyris",
+			"Babin",
+			"Basile",
+			"Bowen",
+			"Broz",
+			"Claes",
+			"Damiani",
+			"Dimov",
+			"Elena",
+			"Episcopo",
+			"Ermacora",
+			"Eustis",
+			"Filipov",
+			"Filippi",
+			"Fluros",
+			"Gori",
+			"Grgic",
+			"Hristov",
+			"Juric",
+			"Kools",
+			"Lukic",
+			"Napolio",
+			"Papae",
+			"Pietri",
+			"Popescu",
+			"Sandor",
+			"Sempres",
+			"Simek",
+			"Simmom",
+			"Simonis",
+			"Spiros",
+			"Stefanidis"
+         ],
+         "attribute_distribution": {
+            "allocated_points": {
+               "min": 5,
+               "max": 10
+            },
+            "point_limits": {
+               "mind": {
+                  "min": 1,
+                  "max": 6
+               },
+               "body": {
+                  "min": 1,
+                  "max": 6
+               },
+               "spirit": {
+                  "min": 1,
+                  "max": 6
+               }
+            }
+         }
+      }
+   },
+   "pet_names": {
+      "default": [
+         "Bob",
+         "Francis",
+         "Mark",
+         "Julie",
+         "Jack",
+         "Meggie",
+         "Mustaches",
+         "Mushroom",
+         "Cactus",
+         "Snuggles",
+         "Jasper",
+         "Allie",
+         "Hammy",
+         "Fluffy",
+         "Fuzzy",
+         "Bounder",
+         "Friend",
+         "Rocky",
+         "Ladybean",
+         "Apple",
+         "Puddles",
+         "Turtle",
+         "Joy",
+         "Bowtie",
+         "Paws",
+         "Yipper",
+         "Twinkle",
+         "March",
+         "Tails",
+         "Brush",
+         "Pipit",
+         "Ruffles",
+         "Bits",
+         "Fluff",
+         "Tayls",
+         "Moxi",
+         "Nibbles",
+         "Bocks",
+         "Nigel",
+         "Spot",
+         "Jaham",
+         "Hoppur",
+         "Murieta",
+         "Jerky",
+         "Turnip"
+      ],
+      "racoon": [
+         "Bandit",
+         "Napoleon",
+         "Onyx",
+         "Forest Cat",
+         "Patches",
+         "Wilder",
+         "Alyx",
+         "Panda",
+         "Galumph"
+      ],
+      "red_fox_wolf": [
+         "Tod",
+         "Socks",
+         "Boots",
+         "Ruby",
+         "Tom",
+         "Daisy",
+         "Marco",
+         "Kitkit",
+         "Kit",
+         "Ember"
+      ],
+      "rabbit": [
+         "Thumpy",
+         "Lulabelle",
+         "CinnaBun",
+         "Bonbon",
+         "Molly",
+         "Candi",
+         "Coco",
+         "Winnie",
+         "Cricket",
+         "Bun",
+         "Bunbun"
+      ],
+      "squirrel": [
+         "Lucy",
+         "Squeakers",
+         "Beans",
+         "Pea",
+         "Squeakpea",
+         "Chuck",
+         "Pip",
+         "Bounce",
+         "Daisy",
+         "Nippy",
+         "Dori",
+         "Nuts",
+         "Nutter",
+         "Acorn",
+         "Peanut",
+         "Quick"
+      ],
+      "beetle": [
+         "Chippy",
+         "Deedle",
+         "Mr Pinchy",
+         "Sir Chitinous",
+         "Rattle",
+         "Skeeters",
+         "Skitters"
+      ],
+      "bitsy_ant": [
+         "Antee",
+         "Bubbles",
+         "Jiggles",
+         "Cuddles",
+         "Dawn",
+         "Blitz",
+         "Socks"
+      ],
+      "doodles": [
+         "Shiny",
+         "Murphy",
+         "Bumbee",
+         "Doc",
+         "Bumble",
+         "Slinky",
+         "Doozer"
+      ]
+   },
+   "town_pieces": {
+      "optional_prefix": [
+         "Grown",
+         "Under",
+         "Great"
+      ],
+      "town_name": [
+         "Rose",
+         "Orchard",
+         "Hedge",
+         "Winter",
+         "Spring",
+         "River",
+         "Summer",
+         "Silver",
+         "Cherry",
+         "Flower",
+         "Willow",
+         "Granite",
+         "Donner",
+         "Silkweed",
+         "Berry",
+         "Oak",
+         "Juniper",
+         "Deer",
+         "Mountain"
+      ],
+      "suffix": [
+         "stead",
+		 "stone",
+		 "leaf",
+		 "hive"
+      ]
+   },
+   "task_groups": "stonehearth:data:player_task_groups"
+}

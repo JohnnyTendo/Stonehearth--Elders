@@ -1,0 +1,143 @@
+{
+   "type": "index",
+   "random_pets": [],
+   "loadouts": [
+      {
+         "alias": "stonehearth:data:loadouts:food_for_days",
+         "display_name": "i18n(stonehearth:data.loadouts.food_for_days.display_name)",
+         "description": "i18n(stonehearth:data.loadouts.food_for_days.description)",
+         "tooltip": "i18n(stonehearth:data.loadouts.food_for_days.tooltip)",
+         "splash": "file(images/food_for_days/splash.png)",
+         "seal": "file(images/food_for_days/seal.png)",
+         "enabled": true,
+         "content": [
+            {
+               "display_name": "i18n(stonehearth:jobs.farmer.farmer_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:farmer:talisman",
+               "icon": "file(images/items/farmer_hoe.png)",
+               "amount": 1
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.berries)",
+               "type": "entity",
+               "uri": "stonehearth:food:berries:berry_basket",
+               "icon": "file(images/items/berry_basket.png)",
+               "amount": 20
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.carrots)",
+               "type": "entity",
+               "uri": "stonehearth:food:carrot:carrot_basket",
+               "icon": "file(images/items/carrot_basket.png)",
+               "amount": 10
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.jerky)",
+               "type": "entity",
+               "uri": "stonehearth:rabbit_jerky",
+               "icon": "file(images/items/jerky.png)",
+               "amount": 10
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+               "type": "gold",
+               "icon": "file(images/items/gold.png)",
+               "uri": "stonehearth:loot:gold",
+               "amount": 10
+            }
+         ]
+      },
+      {
+         "alias": "stonehearth:data:loadouts:merchant_caravan",
+         "display_name": "i18n(stonehearth:data.loadouts.merchant_caravan.display_name)",
+         "description": "i18n(stonehearth:data.loadouts.merchant_caravan.description)",
+         "tooltip": "i18n(stonehearth:data.loadouts.merchant_caravan.tooltip)",
+         "splash": "file(images/merchant_caravan/splash.png)",
+         "seal": "file(images/merchant_caravan/seal.png)",
+         "enabled": true,
+         "content": [
+            {
+               "display_name": "i18n(stonehearth:jobs.trapper.trapper_description.display_name)",
+               "type": "entity",
+               "uri": "elders:jobs:trapper:talisman",
+               "icon": "file(images/items/trapper_knife.png)",
+               "amount": 1
+            },
+            {
+               "display_name": "i18n(stonehearth:jobs.footman.footman_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:footman:wooden_sword_talisman",
+               "icon": "file(images/items/wooden_sword.png)",
+               "amount": 1
+            },
+            {
+               "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:herbalist:talisman",
+               "icon": "file(images/items/herbalist_staff.png)",
+               "amount": 1
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.berries)",
+               "type": "entity",
+               "uri": "stonehearth:food:berries:berry_basket",
+               "icon": "file(images/items/berry_basket.png)",
+               "amount": 10
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+               "type": "gold",
+               "icon": "file(images/items/gold.png)",
+               "uri": "stonehearth:loot:gold",
+               "amount": 20
+            }
+         ]
+      },
+      {
+         "alias": "stonehearth:data:loadouts:money_solves_all_problems",
+         "display_name": "i18n(stonehearth:data.loadouts.money_solves_all_problems.display_name)",
+         "description": "i18n(stonehearth:data.loadouts.money_solves_all_problems.description)",
+         "tooltip": "i18n(stonehearth:data.loadouts.money_solves_all_problems.tooltip)",
+         "splash": "file(images/money_solves_all_problems/splash.png)",
+         "seal": "file(images/money_solves_all_problems/seal.png)",
+         "enabled": true,
+         "content": [
+            {
+               "display_name": "i18n(stonehearth:jobs.weaver.weaver_description.display_name)",
+               "type": "entity",
+               "uri": "stonehearth:weaver:talisman",
+               "icon": "file(images/items/weaver_spindle.png)",
+               "amount": 1
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.berries)",
+               "type": "entity",
+               "uri": "stonehearth:food:berries:berry_basket",
+               "icon": "file(images/items/berry_basket.png)",
+               "amount": 12
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.jerky)",
+               "type": "entity",
+               "uri": "stonehearth:rabbit_jerky",
+               "icon": "file(images/items/jerky.png)",
+               "amount": 6
+            },
+            {
+               "display_name": "i18n(stonehearth:data.loadouts.items.gold)",
+               "type": "gold",
+               "icon": "file(images/items/gold.png)",
+               "uri": "stonehearth:loot:gold",
+               "amount": 100
+            }
+         ]
+      },
+      {
+         "enabled": false
+      },
+      {
+         "enabled": false
+      }
+   ]
+}

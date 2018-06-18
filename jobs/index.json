@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+		"stonehearth:jobs:carpenter": {
+			"description": "elders:jobs:carpenter"
+		},
+		"stonehearth:jobs:herbalist": {
+			"description": "elders:jobs:herbalist"
+		},
+		"stonehearth:jobs:cleric": {
+			"description": "elders:jobs:cleric"
+		},
+		"stonehearth:jobs:footman": {
+			"description": "elders:jobs:footman"
+		},
+		"stonehearth:jobs:worker": {
+			"description": "elders:jobs:worker"
+		},
+		"stonehearth:jobs:trapper": {
+			"description": "elders:jobs:trapper"
+		},
+		"stonehearth:jobs:shepherd": {
+			"description": "elders:jobs:shepherd"
+		}
+	}
+}

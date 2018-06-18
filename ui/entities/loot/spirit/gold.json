@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(chest.qb)"
+            ]
+         }
+      },
+	  "effect_list": {
+         "default": "stonehearth:effects:dry_stone_heat"
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1000,
+         "trigger_stacks_changed_event": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "Spirit",
+         "description": "The magical currency",
+         "icon": "file(gold.png)",
+         "is_item": true,
+         "category": "wealth",
+         "material_tags": "gold money stockpile_gold_money"
+      },
+      "stonehearth:appeal": {
+         "appeal": 4
+      }
+   }
+}

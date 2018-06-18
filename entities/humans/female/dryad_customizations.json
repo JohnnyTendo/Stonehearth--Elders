@@ -1,0 +1,57 @@
+{
+   "type": "index",
+   "categories": {
+      "head_hair": ["[none]"],
+      "face_hair": ["eyebrows"],
+      "skin_color": ["[none]"],
+      "eye_color": ["eye_color"],
+      "hair_color": ["hair_color"]
+   },
+   "styles": {
+      "hair_color": {
+         "type": "material_map",
+         "values": {
+            "black": {
+               "file": "/stonehearth/data/materials/material_maps/hair_black_material_map.json"
+            },
+            "brown": {
+               "file": "/stonehearth/data/materials/material_maps/hair_brown_material_map.json"
+            },
+            "sandy": {
+               "file": "/stonehearth/data/materials/material_maps/hair_sandy_material_map.json"
+            }
+         }
+      },
+      "eye_color": {
+         "type": "material_map",
+         "values": {
+            "black": {
+               "file": "/stonehearth/data/materials/material_maps/eye_black_material_map.json"
+            },
+            "brown": {
+               "file": "/stonehearth/data/materials/material_maps/eye_brown_material_map.json"
+            },
+            "green": {
+               "file": "/stonehearth/data/materials/material_maps/eye_green_material_map.json"
+            },
+            "hazel": {
+               "file": "/stonehearth/data/materials/material_maps/eye_hazel_material_map.json"
+            },
+            "yellow": {
+               "file": "/stonehearth/data/materials/material_maps/eye_yellow_material_map.json"
+            }
+         }
+      },
+      "eyebrows": {
+         "type": "model",
+         "values": {
+            "[none]": {
+               "file": ""
+            },
+            "straight_eyebrows": {
+               "file": "file(brows.qb)"
+            }
+         }
+      }
+   }
+}

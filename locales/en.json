@@ -1,0 +1,26 @@
+{
+	"kingdom": {
+		"kingdom_name": "Elders",
+		"quote": "Might comes with the path of nature.",
+		"long_description": "Spreading civilizations, exploited earth and chopped forests. The world needs a break. And so the elders has awoken once more to fight of the foes of nature and revert the balance.",
+		"post_selection_description": ", a conglomerate of dryads and oreads, has awoken.",
+		"initial_town_name": "The Hive [str(town_number)]"
+    },
+	"data": {
+		"elders_population": {
+			"display_name": "The Elders"
+		}
+	},
+	"entities": {
+		"tools": {
+			"mining_pick": {
+				"display_name": "Mining Pick",
+				"description": "A pick to mine stone"
+			},
+			"worker_hammer": {
+				"display_name": "Worker Hammer",
+				"description": "A hammer to hammer things"
+			}
+		}
+	}
+}

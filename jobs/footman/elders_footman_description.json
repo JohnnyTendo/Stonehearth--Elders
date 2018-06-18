@@ -1,0 +1,7 @@
+{
+   "mixins": "stonehearth:jobs:footman",
+   "equipment": {
+      "torso": "file(footman_outfit/footman_outfit.json)",
+      "helmet": "file(footman_outfit/footman_helm.json)"
+   }
+}

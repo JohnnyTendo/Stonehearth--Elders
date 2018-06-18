@@ -1,0 +1,9 @@
+{
+   "mixins": "stonehearth:jobs:cleric",
+   "talisman_uri": "elders:jobs:cleric:tome",
+   "equipment": {
+      "torso": "file(cleric_outfit/cleric_outfit.json)",
+      "helmet": "file(cleric_outfit/cleric_helm.json)",
+      "mainhand": "elders:jobs:cleric:tome"
+   }
+}

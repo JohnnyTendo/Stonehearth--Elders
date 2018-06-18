@@ -1,0 +1,51 @@
+{
+	"info" : {
+		"name" : "The Elders",
+		"namespace" : "elders",
+		"version" : 3
+	},
+	"default_locale": "en",
+	"client_init_script": "file(elders_client)",
+	"aliases" : {
+		"data:gm_index": "file(data/gm/gm_index.json)",
+        "kingdoms:elders": "file(data/elders_population.json)",
+	    "dryad:customizations": "file(entities/humans/female/dryad_customizations.json)",
+	    "oread:customizations": "file(entities/humans/male/oread_customizations.json)",
+	    "dryad": "file(entities/humans/female/dryad.json)",
+	    "oread": "file(entities/humans/male/oread.json)",
+	    "jobs:index": "file(jobs/index.json)",
+		"jobs:carpenter": "file(jobs/carpenter/elders_carpenter_description.json)",
+		"jobs:carpenter:saw": "file(jobs/carpenter/carpenter_saw/carpenter_saw.json)",
+		"jobs:carpenter:outfit": "file(jobs/carpenter/carpenter_outfit/carpenter_outfit.json)",
+		"jobs:carpenter:helm": "file(jobs/carpenter/carpenter_outfit/carpenter_helm.json)",
+		"jobs:herbalist": "file(jobs/herbalist/elders_herbalist_description.json)",
+		"jobs:herbalist:outfit": "file(jobs/herbalist/herbalist_outfit/herbalist_outfit.json)",
+		"jobs:herbalist:helm": "file(jobs/herbalist/herbalist_outfit/herbalist_helm.json)",
+		"jobs:cleric": "file(jobs/cleric/elders_cleric_description.json)",
+		"jobs:cleric:tome": "file(jobs/cleric/cleric_tome/cleric_tome_talisman.json)",
+		"jobs:cleric:outfit": "file(jobs/cleric/cleric_outfit/cleric_outfit.json)",
+		"jobs:cleric:helm": "file(jobs/cleric/cleric_outfit/cleric_helm.json)",
+		"jobs:footman": "file(jobs/footman/elders_footman_description.json)",
+		"jobs:footman:outfit": "file(jobs/footman/footman_outfit/footman_outfit.json)",
+		"jobs:footman:helm": "file(jobs/footman/footman_outfit/footman_helm.json)",
+		"jobs:worker": "file(jobs/worker/elders_worker_description.json)",
+		"jobs:worker:outfit": "file(jobs/worker/worker_outfit)",
+		"jobs:shepherd": "file(jobs/shepherd/elders_shepherd_description.json)",
+		"jobs:shepherd:outfit": "file(jobs/shepherd/shepherd_outfit)",
+		"jobs:trapper": "file(jobs/trapper/elders_trapper_description.json)",
+		"jobs:trapper:outfit": "file(jobs/trapper/trapper_outfit)",
+		"jobs:trapper:knife": "file(jobs/trapper/trapper_knife/trapper_knife.json)",
+		"jobs:trapper:talisman": "file(jobs/trapper/trapper_knife/trapper_knife_talisman.json)",
+		"jobs:worker:mining_pick": "file(entities/tools/mining_pick/mining_pick.json)",
+		"jobs:worker:worker_hammer": "file(entities/tools/worker_hammer/worker_hammer.json)",
+		"camp_standard": "file(entities/standard/camp_standard.json)",
+		"loot:spirit": "",
+		"hearth:evolved:stone": "file(entities/decoration/hearth_stone/hearth_evolved_stone.json)"
+	},
+    "overrides" : {
+    },
+	"mixintos": {
+		"stonehearth:playable_kingdom_index": "file(data/elders_playable_kingdom_index.json)",
+		"stonehearth:data:gm_index": "elders:data:gm_index"
+	}
+}

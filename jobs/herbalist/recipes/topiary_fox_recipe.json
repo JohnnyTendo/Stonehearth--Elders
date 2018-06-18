@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 25,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.topiary_fox_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.topiary_fox_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.herbalist.recipes.topiary_fox_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/craftsman_statue/topiary_fox/topiary_fox.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 5,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:plants:berry_bush",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:consumables:energy_tonic",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:craftsman_statue:topiary_fox"
+      }
+   ]
+}

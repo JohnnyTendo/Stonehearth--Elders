@@ -1,0 +1,31 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(hearth_evolved_stone.qb)"
+            ]
+         }
+      },
+	  "effect_list": {
+         "default": "file(/data/hearth_Stone/animations/idle.json)"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "portrait": "file(hearth_evolved_stone.png)",
+         "display_name": "hearth_evolved_stone",
+         "description": "hearth_evolved_stone",
+         "icon": "file(hearth_evolved_stone.png)",
+         "category": "decoration",
+         "material_tags": "firepit light light_source stockpile_decoration"
+      }
+   }
+}

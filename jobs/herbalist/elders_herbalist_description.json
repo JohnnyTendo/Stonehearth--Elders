@@ -1,0 +1,10 @@
+{
+   "mixins": "stonehearth:jobs:herbalist",
+   "equipment": {
+      "torso": "file(herbalist_outfit/herbalist_outfit.json)",
+      "helmet": "file(herbalist_outfit/herbalist_helm.json)"
+   },
+   "crafter": {
+      "recipe_list": "/elders/jobs/herbalist/recipes/recipes.json"
+   }
+}

@@ -1,0 +1,100 @@
+X Rename
+	X stonegolems to Oreads
+	X entlings to Dryads
+
+X Loadout
+	X changed Talismans in loadout
+
+Entities
+	X change gold currency into spirit
+	implement new Talisman recipes
+		X cleric
+		trapper
+	X rework Worker
+		O tools
+		X Outfit
+	rework Carpenter
+		items
+		X Outfit
+		X rework outfit
+	rework Mason
+		items
+		Outfit
+		rework Potter
+			items
+			Outfit
+	X rework trapper
+		X Outfit
+		X Talisman
+		X rework shepherd
+			X Outfit
+	rework Blacksmith
+		items
+		Outfit
+		rework Engineer
+			items
+			Outfit
+	rework weaver
+		items
+		Outfit
+	X rework herbalist
+		X items
+		X Outfit
+		X rework cleric
+			X talisman
+			X Outfit
+	rework footman
+		X oread Outfit
+		X rework dryad outfit (helmet does not fit)
+		rework knight
+			talisman
+			Outfit
+		rework archer
+			items
+			Outfit
+
+Templates
+	Building templates
+
+Jobs
+	rework Job-tree
+		Oreads are Mason/Blacksmith/potter/engineer/footman/knight
+			- their jobs are build & mine
+		Dryads are Carpenter/cook/farmer/weaver/herbalist/cleric/archer
+			- their jobs are build & haul
+
+UI
+	X gold to spirit count
+	X a LOT
+	X 'special buttons' should use the color setting from the Town Overview tabs or other way round (e.g. the unit_frame command-button-bg.png)
+	X rework well.png and well2.png (the stone optic looks like s**t in the Wooden setting)
+	X is the dock.png okay?
+	rework clock
+	X rework town overview banners
+	X rework combat banners and buttons
+	New combat banners are not shown in unit_frame
+
+X Trivia
+	X Town names not working properly
+	X Population Text
+	X Population Pictures
+
+Localizations
+	Check names
+
+town progression campaign
+	Campaign
+		Dialog: Town founding & the cause for your settlement
+			Quest: collect a named amount (maybe 1000) Spirit
+			Reward: Let the Sapling (town_standard) grow at cost of spirit (maybe 1000)
+		Dialog: you have to rebalance the forces of nature by building a Focus-Hearth 
+			Quest: Search & destroy an enemy camp to loot the Focus
+			Reward: get a Spirit-Focus (Item for evolving hearth)
+		Dialog: Congratz & now activate it
+			Quest: Enpower the Focus with spirits
+			Reward: Hearth evolves
+		
+	X Banner should be a sapling that grows with progression
+	Camp_standards for different versions for expanded towns
+	(maybe the evolving hearth should be a magical tree/ magical rock) eg. /desktop/hearth_evolved_stone.qbcl
+

@@ -1,0 +1,11 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "town_founding": "file(encounters/town_founding.json)",
+      "town_founding_explanation": "file(encounters/town_founding_explanation.json)",
+      "banner_upgrade_vitality": "file(encounters/banner_upgrade_vitality.json)",
+      "banner_upgrade_strength": "file(encounters/banner_upgrade_strength.json)",
+      "banner_upgrade_cunning": "file(encounters/banner_upgrade_cunning.json)"
+   }
+}

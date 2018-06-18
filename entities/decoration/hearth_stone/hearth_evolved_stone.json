@@ -1,0 +1,57 @@
+{
+   "mixins": "file(hearth_evolved_stone_ghost.json)",
+   "type": "entity",
+   "components": {
+      "stonehearth:entity_forms": {
+         "ghost_form": "file(hearth_evolved_stone_ghost.json)",
+         "iconic_form": "file(hearth_evolved_stone_iconic.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      },
+      "stonehearth:firepit": {},
+      "stonehearth:lamp": {
+         "light_policy": "manual",
+         "light_effect": "stonehearth:effects:firepit_effect:green",
+         "light_origin": { "x": 0, "y": 1, "z": 0 }
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 3, "y": 2, "z": 3 }
+            }
+         ]
+      },
+	  "effect_list": {
+         "default": "file(data/hearth_stone/effects/idle.json)",
+         "initial_pose_animation": "idle.json",
+      },
+	  "stonehearth:bone_transform": {
+         "bones": [
+			"ATTOVERCOG",
+			"orb",
+			"root",
+			"socket"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "clearable": false
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 12
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}
