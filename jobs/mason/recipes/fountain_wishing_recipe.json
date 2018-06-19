@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 180,
+   "work_units": 30,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.fountain_wishing_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.fountain_wishing_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.fountain_wishing_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/roadside_shrine/fountain_wishing/fountain_wishing.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement": 4,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:roadside_shrine:fountain_wishing"
+      }
+   ]
+}

@@ -1,0 +1,229 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.mason.recipes.workbenches_name)",
+         "recipes": {
+            "mason_workbench": {
+               "recipe": "file(mason_workbench_recipe.json)"
+            },
+            "mason_pedestal": {
+               "recipe": "file(mason_pedestal_recipe.json)"
+            },
+            "mason_pedestal_amberstone": {
+               "recipe": "file(mason_pedestal_amberstone_recipe.json)"
+            }
+         }
+      },
+      "legendary": {
+         "ordinal": 5,
+         "name": "i18n(stonehearth:jobs.common.recipes.legendary_name)",
+         "recipes": {
+            "lucid_gem": {
+               "recipe": "file(legendary_gem_recipe.json)"
+            },
+            "giants_shield": {
+               "recipe": "file(legendary_shield_recipe.json)"
+            },
+            "titan_ward_stone": {
+               "recipe": "file(titan_ward_stone_recipe.json)"
+            }
+         }
+      },
+      "tools": {
+         "ordinal": 10,
+         "name": "i18n(stonehearth:jobs.mason.recipes.tools_name)",
+         "recipes": {
+            "blacksmith_hammer": {
+               "recipe": "file(blacksmith_hammer_recipe.json)"
+            },
+            "cook_spoon": {
+               "recipe": "file(cook_spoon_recipe.json)"
+            },
+            "potter_cutter": {
+               "recipe": "file(potter_cutter_recipe.json)"
+            },
+            "trapper_knife": {
+               "recipe": "file(trapper_knife_recipe.json)"
+            }
+         }
+      },
+      "storage": {
+         "ordinal": 20,
+         "name": "i18n(stonehearth:jobs.mason.recipes.storage_name)",
+         "recipes": {
+            "stone_chest": {
+               "recipe": "file(stone_chest_recipe.json)"
+            },
+            "stone_pile": {
+               "recipe": "file(stone_pile_recipe.json)"
+            },
+            "output_box_stone": {
+               "recipe": "file(output_box_stone_recipe.json)"
+            },
+            "output_box_amberstone": {
+               "recipe": "file(output_box_amberstone_recipe.json)"
+            },
+            "input_shelf_wall_stone": {
+               "recipe": "file(input_shelf_wall_stone_recipe.json)"
+            },
+            "input_shelf_ground_stone": {
+               "recipe": "file(input_shelf_ground_stone_recipe.json)"
+            },
+            "input_corner_ground_stone": {
+               "recipe": "file(input_corner_ground_stone_recipe.json)"
+            },
+            "input_table_ground_stone": {
+               "recipe": "file(input_table_ground_stone_recipe.json)"
+            }
+         }
+      },
+      "refined": {
+         "ordinal": 30,
+         "name": "i18n(stonehearth:jobs.mason.recipes.refined_name)",
+         "recipes": {
+            "gold_flakes": {
+               "recipe": "file(gold_flakes_recipe.json)"
+            },
+            "gold_flakes_times_three": {
+               "recipe": "file(gold_flakes_times_three_recipe.json)"
+            }
+         }
+      },
+      "weapons": {
+         "ordinal": 40,
+         "name": "i18n(stonehearth:jobs.mason.recipes.weapons_name)",
+         "recipes": {
+            "stone_maul": {
+               "recipe": "file(stone_maul_recipe.json)"
+            }
+         }
+      },
+      "building_parts": {
+         "ordinal": 70,
+         "name": "i18n(stonehearth:jobs.mason.recipes.building_parts_name)",
+         "recipes": {
+            "cobblestone_fence": {
+               "recipe": "file(cobblestone_fence_recipe.json)"
+            },
+            "cobblestone_fence_gate": {
+               "recipe": "file(cobblestone_fence_gate_recipe.json)"
+            },
+            "stone_tunnel_door": {
+               "recipe": "file(stone_tunnel_door_recipe.json)"
+            },
+            "door_mason": {
+               "recipe": "file(door_mason_recipe.json)"
+            },
+            "amberstone_tunnel_door": {
+               "recipe": "file(amberstone_tunnel_door_recipe.json)"
+            },
+            "amberstone_window": {
+               "recipe": "file(amberstone_window_recipe.json)"
+            }
+         }
+      },
+      "furniture": {
+         "ordinal": 80,
+         "name": "i18n(stonehearth:jobs.mason.recipes.furniture_name)",
+         "recipes": {
+            "stone_chair": {
+               "recipe": "file(stone_chair_recipe.json)"
+            },
+            "stone_table": {
+               "recipe": "file(stone_table_recipe.json)"
+            },
+            "amberstone_table": {
+               "recipe": "file(amberstone_table_recipe.json)"
+            },
+            "stone_bench": {
+               "recipe": "file(stone_bench_recipe.json)"
+            }
+         }
+      },
+      "signage_decoration": {
+         "ordinal": 85,
+         "name": "i18n(stonehearth:jobs.mason.recipes.signage_decoration_name)",
+         "recipes": {
+            "bird_bath": {
+               "recipe": "file(bird_bath_recipe.json)"
+            },
+            "amberstone_teapot": {
+               "recipe": "file(amberstone_teapot_recipe.json)"
+            },
+            "amberstone_lantern": {
+               "recipe": "file(amberstone_lantern_recipe.json)"
+            },
+            "stone_garden_lantern": {
+               "recipe": "file(stone_garden_lantern_recipe.json)"
+            },
+            "stone_wall_lantern": {
+               "recipe": "file(stone_wall_lantern_recipe.json)"
+            },
+            "gargoyle": {
+               "recipe": "file(gargoyle_recipe.json)"
+            },
+            "stone_brazier": {
+               "recipe": "file(stone_brazier_recipe.json)"
+            },
+            "tower_brazier": {
+               "recipe": "file(tower_brazier_recipe.json)"
+            },
+            "wooden_sign_mason": {
+               "recipe": "file(wooden_sign_mason_recipe.json)"
+            },
+            "valor_statue": {
+               "recipe": "file(valor_statue_recipe.json)"
+            },
+            "firepit": {
+               "recipe": "file(firepit_recipe.json)"
+            },
+            "roadside_shrine": {
+               "recipe": "file(roadside_shrine_recipe.json)"
+            },
+            "craftsman_statue": {
+               "recipe": "file(craftsman_statue_recipe.json)"
+            },
+            "sign_mason": {
+               "recipe": "file(sign_mason_recipe.json)"
+            },
+            "fountain": {
+               "recipe": "file(fountain_recipe.json)"
+            },
+            "fountain_garden": {
+               "recipe": "file(fountain_garden_recipe.json)"
+            },
+            "fountain_tiered": {
+               "recipe": "file(fountain_tiered_recipe.json)"
+            },
+            "statue_rabbit": {
+               "recipe": "file(statue_rabbit_recipe.json)"
+            },
+            "statue_rabbit_flat": {
+               "recipe": "file(statue_rabbit_flat_recipe.json)"
+            },
+            "fountain_wishing": {
+               "recipe": "file(fountain_wishing_recipe.json)"
+            },
+            "statue_knight_male": {
+               "recipe": "file(valor_statue_knight_male_recipe.json)"
+            },
+            "statue_knight": {
+               "recipe": "file(valor_statue_knight_female_recipe.json)"
+            },
+            "window_arrow_short": {
+               "recipe": "file(valor_window_arrow_short_recipe.json)"
+            },
+            "valor_window_arrow_tall": {
+               "recipe": "file(valor_window_arrow_tall_recipe.json)"
+            },
+            "valor_window_frame_barred": {
+               "recipe": "file(valor_window_frame_barred_recipe.json)"
+            },
+            "valor_window_frame_xlarge": {
+               "recipe": "file(valor_window_frame_xlarge_recipe.json)"
+            }
+         }
+      }
+   }
+}

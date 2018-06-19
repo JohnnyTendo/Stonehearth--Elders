@@ -9,7 +9,7 @@ Entities
 	X change gold currency into spirit
 	implement new Talisman recipes
 		X cleric
-		trapper
+		X trapper
 	X rework Worker
 		O tools
 		X Outfit
@@ -18,8 +18,8 @@ Entities
 		X Outfit
 		X rework outfit
 	rework Mason
-		items
-		Outfit
+		furniture items
+		X Outfit
 		rework Potter
 			items
 			Outfit

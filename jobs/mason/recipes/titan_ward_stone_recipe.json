@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 100,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.titan_ward_stone_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.titan_ward_stone_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.titan_ward_stone_recipe.flavor)",
+   "portrait": "/stonehearth/entities/corruption/titan_ward_stone/titan_ward_stone.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "manual_unlock": true,
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:corrupt:titanstorm:titan_ward_stone"
+      }
+   ]
+}

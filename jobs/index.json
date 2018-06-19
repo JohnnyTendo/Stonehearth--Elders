@@ -4,6 +4,9 @@
 		"stonehearth:jobs:carpenter": {
 			"description": "elders:jobs:carpenter"
 		},
+		"stonehearth:jobs:mason": {
+			"description": "elders:jobs:mason"
+		},
 		"stonehearth:jobs:herbalist": {
 			"description": "elders:jobs:herbalist"
 		},

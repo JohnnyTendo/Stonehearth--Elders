@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 45,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.amberstone_table_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.amberstone_table_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.amberstone_table_recipe.flavor)",
+   "portrait": "/stonehearth/entities/furniture/amberstone_table/amberstone_table.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 3,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:furniture:amberstone_table"
+      }
+   ]
+}

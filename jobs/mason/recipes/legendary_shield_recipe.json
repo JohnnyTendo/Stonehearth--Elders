@@ -1,0 +1,39 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.giants_shield_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.giants_shield_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.giants_shield_recipe.flavor)",
+   "portrait": "/stonehearth/entities/armor/legendary_shield/legendary_shield.png",
+   "workshop": "stonehearth:mason:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:legendary:face",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:legendary:frame",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:consumables:strength_tonic",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:consumables:courage_tonic",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:consumables:stamina_tonic",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:armor:legendary:shield"
+      }
+   ]
+}

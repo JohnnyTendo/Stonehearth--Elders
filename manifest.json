@@ -18,6 +18,9 @@
 		"jobs:carpenter:saw": "file(jobs/carpenter/carpenter_saw/carpenter_saw.json)",
 		"jobs:carpenter:outfit": "file(jobs/carpenter/carpenter_outfit/carpenter_outfit.json)",
 		"jobs:carpenter:helm": "file(jobs/carpenter/carpenter_outfit/carpenter_helm.json)",
+		"jobs:mason": "file(jobs/mason/elders_mason_description.json)",
+		"jobs:mason:outfit": "file(jobs/mason/mason_outfit/mason_outfit.json)",
+		"jobs:mason:helm": "file(jobs/mason/mason_outfit/mason_helm.json)",
 		"jobs:herbalist": "file(jobs/herbalist/elders_herbalist_description.json)",
 		"jobs:herbalist:outfit": "file(jobs/herbalist/herbalist_outfit/herbalist_outfit.json)",
 		"jobs:herbalist:helm": "file(jobs/herbalist/herbalist_outfit/herbalist_helm.json)",
@@ -42,8 +45,6 @@
 		"loot:spirit": "",
 		"hearth:evolved:stone": "file(entities/decoration/hearth_stone/hearth_evolved_stone.json)"
 	},
-    "overrides" : {
-    },
 	"mixintos": {
 		"stonehearth:playable_kingdom_index": "file(data/elders_playable_kingdom_index.json)",
 		"stonehearth:data:gm_index": "elders:data:gm_index"

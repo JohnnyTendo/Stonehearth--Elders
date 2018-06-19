@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 180,
+   "work_units": 30,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.roadside_shrine_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.roadside_shrine_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.roadside_shrine_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/roadside_shrine/roadside_shrine.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement": 3,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:food:donation_box",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:roadside_shrine"
+      }
+   ]
+}

@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 180,
+   "work_units": 30,
+   "recipe_name": "i18n(stonehearth:jobs.mason.recipes.statue_knight_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.mason.recipes.statue_knight_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.mason.recipes.statue_knight_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/valor_statue/statue_knight_female/statue_knight_female.png",
+   "workshop": "stonehearth:mason:pedestal",
+   "level_requirement": 3,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:valor_statue:knight_female"
+      }
+   ]
+}
