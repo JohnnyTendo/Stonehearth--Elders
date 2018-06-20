@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 140,
+   "work_units": 8,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.long_sword_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.long_sword_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.long_sword_recipe.flavor)",
+   "portrait": "/stonehearth/entities/weapons/long_sword/long_sword.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 4
+      },
+      {
+         "uri": "stonehearth:refined:leather_bolt",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:weapons:long_sword"
+      }
+   ]
+}

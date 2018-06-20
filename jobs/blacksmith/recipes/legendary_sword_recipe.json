@@ -1,0 +1,39 @@
+{
+   "type": "recipe",
+   "effort": 160,
+   "work_units": 8,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.two_handed_sword_valor_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.two_handed_sword_valor_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.two_handed_sword_valor_recipe.flavor)",
+   "portrait": "/stonehearth/entities/weapons/legendary_sword/legendary_sword.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:legendary:grip",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:legendary:inlay",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:gold_ingot",
+         "count": 5
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 3
+      },
+      {
+         "uri": "stonehearth:resources:coal:lump_of_coal",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:weapons:legendary:sword"
+      }
+   ]
+}

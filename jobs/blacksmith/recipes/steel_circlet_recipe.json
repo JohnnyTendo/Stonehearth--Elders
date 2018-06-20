@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 45,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.steel_circlet_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.steel_circlet_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/armor/steel_circlet/steel_circlet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:armor:steel_circlet"
+      }
+   ]
+}

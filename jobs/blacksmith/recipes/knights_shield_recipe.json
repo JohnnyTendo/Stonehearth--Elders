@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 10,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.knights_shield_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.knights_shield_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/armor/knights_shield/knights_shield.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:knight:talisman"
+      }
+   ]
+}

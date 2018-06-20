@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 110,
+   "work_units": 15,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.sign_blacksmith_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.sign_blacksmith_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.sign_blacksmith_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/craftsman_statue/sign_blacksmith/sign_blacksmith.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:iron:ore",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:craftsman_statue:sign_blacksmith"
+      }
+   ]
+}

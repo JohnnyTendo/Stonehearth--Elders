@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.blacksmith_workbench_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.blacksmith_workbench_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.blacksmith_workbench_recipe.flavor)",
+   "portrait": "/stonehearth/jobs/blacksmith/blacksmith_workbench/blacksmith_workbench.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "material": "ingot resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:blacksmith:workbench"
+      }
+   ]
+}

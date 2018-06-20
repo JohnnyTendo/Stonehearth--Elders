@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.bronze_mace_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.bronze_mace_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.bronze_mace_recipe.flavor)",
+   "portrait": "/stonehearth/entities/weapons/bronze_mace/bronze_mace.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:bronze_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:weapons:bronze_mace"
+      }
+   ]
+}

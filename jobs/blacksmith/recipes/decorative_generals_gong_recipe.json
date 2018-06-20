@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 15,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.decorative_generals_gong_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.decorative_generals_gong_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.decorative_generals_gong_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/decorative_generals_gong/decorative_generals_gong.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:monsters:kobolds:loot:generals_bling_hat",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:decorative_generals_gong"
+      }
+   ]
+}

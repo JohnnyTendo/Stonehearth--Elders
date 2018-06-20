@@ -1,6 +1,9 @@
 {
    "mixins": "stonehearth:jobs:index",
    "jobs": {
+		"stonehearth:jobs:blacksmith": {
+			"description": "elders:jobs:blacksmith"
+		},
 		"stonehearth:jobs:carpenter": {
 			"description": "elders:jobs:carpenter"
 		},

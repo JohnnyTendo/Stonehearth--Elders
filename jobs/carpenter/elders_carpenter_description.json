@@ -2,7 +2,6 @@
    "mixins": "stonehearth:jobs:carpenter",
    "equipment": {
       "torso": "file(carpenter_outfit)",
-	  "helmet": "file(carpenter_outfit/carpenter_helm.json)",
-      "mainhand": "elders:jobs:carpenter:saw"
+	  "helmet": "file(carpenter_outfit/carpenter_helm.json)"
    }
 }

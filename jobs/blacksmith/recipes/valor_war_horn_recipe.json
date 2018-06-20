@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 12,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.valor_war_horn_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.valor_war_horn_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.valor_war_horn_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/valor_statue/war_horn/war_horn.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 3,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:valor_statue:war_horn"
+      }
+   ]
+}

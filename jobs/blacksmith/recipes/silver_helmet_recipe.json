@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 110,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.silver_helmet_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.silver_helmet_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.silver_helmet_recipe.flavor)",
+   "portrait": "/stonehearth/entities/armor/silver_helmet/silver_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:silver_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:armor:silver_helmet"
+      }
+   ]
+}

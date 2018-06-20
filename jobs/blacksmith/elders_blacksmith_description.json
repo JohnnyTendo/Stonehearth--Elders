@@ -1,0 +1,10 @@
+{
+   "mixins": "stonehearth:jobs:blacksmith",
+   "equipment": {
+      "torso": "file(blacksmith_outfit/blacksmith_outfit.json)",
+      "helmet": "file(blacksmith_outfit/blacksmith_helm.json)"
+   },
+   "crafter": {
+      "recipe_list": "/elders/jobs/blacksmith/recipes/recipes.json"
+   }
+}

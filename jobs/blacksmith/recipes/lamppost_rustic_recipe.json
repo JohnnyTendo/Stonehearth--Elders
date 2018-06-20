@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 110,
+   "work_units": 12,
+   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.lamppost_rustic_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.blacksmith.recipes.lamppost_rustic_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.blacksmith.recipes.lamppost_rustic_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/craftsman_statue/lamppost_rustic/lamppost_rustic.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "material": "stone resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:craftsman_statue:lamppost_rustic"
+      }
+   ]
+}
