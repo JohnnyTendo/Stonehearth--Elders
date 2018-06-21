@@ -1,0 +1,82 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.engineer.recipes.workbenches_name)",
+         "recipes": {
+            "blacksmith_workbench": {
+               "recipe": "file(engineer_workbench_recipe.json)"
+            }
+         }
+      },
+      "legendary": {
+         "ordinal": 5,
+         "name": "i18n(stonehearth:jobs.common.recipes.legendary_name)",
+         "recipes": {
+            "mechanism": {
+               "recipe": "file(legendary_mechanism_recipe.json)"
+            }
+         }
+      },
+      "gadget_parts": {
+         "ordinal": 30,
+         "name": "i18n(stonehearth:jobs.engineer.recipes.gadget_parts_name)",
+         "recipes": {
+            "gear": {
+               "recipe": "file(bronze_gear_recipe.json)"
+            },
+            "iron_gear": {
+               "recipe": "file(iron_gear_recipe.json)"
+            }
+         }
+      },
+      "ranged_weapons": {
+         "ordinal": 40,
+         "name": "i18n(stonehearth:jobs.engineer.recipes.ranged_weapons_name)",
+         "recipes": {
+            "small_turret": {
+               "recipe": "file(small_turret_recipe.json)"
+            },
+            "turnip_shooter": {
+               "recipe": "file(turnip_shooter_recipe.json)"
+            }
+         }
+      },
+      "traps": {
+         "ordinal": 45,
+         "name": "i18n(stonehearth:jobs.engineer.recipes.traps_name)",
+         "recipes": {
+            "clamp_trap": {
+               "recipe": "file(clamp_trap_recipe.json)"
+            },
+            "critter_trap": {
+               "recipe": "file(critter_trap_recipe.json)"
+            }
+         }
+      },
+      "building_parts": {
+         "ordinal": 70,
+         "name": "i18n(stonehearth:jobs.engineer.recipes.building_parts_name)",
+         "recipes": {
+            "portcullis_valor": {
+               "recipe": "file(valor_portcullis_recipe.json)"
+            },
+            "bronze_portcullis": {
+               "recipe": "file(bronze_portcullis_recipe.json)"
+            }
+         }
+      },
+      "decorations": {
+         "ordinal": 80,
+         "name": "i18n(stonehearth:jobs.engineer.recipes.decorations_name)",
+         "recipes": {
+            "iron_door": {
+               "recipe": "file(iron_door_recipe.json)"
+            },
+            "wooden_sign_engineer": {
+               "recipe": "file(wooden_sign_engineer_recipe.json)"
+            }
+         }
+      }
+   }
+}

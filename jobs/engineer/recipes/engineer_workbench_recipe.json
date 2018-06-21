@@ -1,0 +1,20 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.engineer.recipes.engineer_workbench_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.engineer.recipes.engineer_workbench_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/jobs/engineer/engineer_workbench/engineer_workbench.png",
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:iron_ingot",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:engineer:workbench"
+      }
+   ]
+}

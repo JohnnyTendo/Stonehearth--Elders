@@ -2,8 +2,8 @@
    "type": "recipe",
    "effort": 120,
    "work_units": 5,
-   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.engineer_wrench_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.blacksmith.recipes.engineer_wrench_recipe.description)",
+   "display_name": "i18n(elders:jobs.engineer.engineer_wrench.display_name)",
+   "description": "i18n(elders:jobs.engineer.engineer_wrench.description)",
    "flavor": "",
    "portrait": "/stonehearth/jobs/engineer/engineer_wrench/engineer_wrench.png",
    "workshop": "stonehearth:blacksmith:workbench",
@@ -16,7 +16,7 @@
    ],
    "produces": [
       {
-         "item": "stonehearth:engineer:talisman"
+         "item": "elders:jobs:engineer:talisman"
       }
    ]
 }

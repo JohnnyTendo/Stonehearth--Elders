@@ -1,0 +1,20 @@
+{
+   "mixins": "stonehearth:jobs:engineer",
+   "talisman_uri": "elders:jobs:engineer:talisman",
+   "display_name": "i18n(elders:jobs.engineer.engineer_description.display_name)",
+   "description": "i18n(elders:jobs.engineer.engineer_description.description)",
+   "equipment": {
+      "torso": "file(engineer_outfit/engineer_outfit.json)",
+      "mainhand": "elders:jobs:engineer:wrench",
+      "helmet": "file(engineer_outfit/engineer_helm.json)"
+   },
+   "icon": "file(images/icon.png)",
+   "crafter": {
+      "recipe_list": "/elders/jobs/engineer/recipes/recipes.json"
+   },
+   "workshop": {
+      "name": "i18n(elders:jobs.engineer.engineer_workbench.engineer_workbench_ghost.display_name)",
+      "description": "i18n(elders:jobs.engineer.engineer_workbench.engineer_workbench_ghost.description)",
+      "long_description": "i18n(elders:jobs.engineer.engineer_workbench.engineer_workbench_ghost.description)"
+   }
+}

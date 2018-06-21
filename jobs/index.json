@@ -16,6 +16,9 @@
 		"stonehearth:jobs:cleric": {
 			"description": "elders:jobs:cleric"
 		},
+		"stonehearth:jobs:engineer": {
+			"description": "elders:jobs:engineer"
+		},
 		"stonehearth:jobs:footman": {
 			"description": "elders:jobs:footman"
 		},

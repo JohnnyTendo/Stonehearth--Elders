@@ -22,5 +22,17 @@
 				"description": "A hammer to hammer things"
 			}
 		}
+	},
+	"jobs": {
+		"engineer": {
+			"engineer_description": {
+				"display_name": "Elemental Defender",
+				"description": "With an elemental defender in your rows, you can use the ancient magic against your foes."
+			},
+			"engineer_wrench": {
+				"display_name": "Elemental Staff",
+				"description": "The staff of an elemantalist."
+			}
+		}
 	}
 }

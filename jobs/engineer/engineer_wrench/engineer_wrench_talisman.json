@@ -1,0 +1,39 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(engineer_wrench.qb)"
+            ]
+         }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      },
+      "stonehearth:promotion_talisman": {
+         "job": "elders:jobs:engineer"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 34,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(elders:jobs.engineer.engineer_wrench.display_name)",
+         "description": "i18n(elders:jobs.engineer.engineer_wrench.description)",
+         "icon": "file(engineer_wrench.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "stockpile_tool"
+      }
+   }
+}
