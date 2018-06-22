@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.weaver.recipes.input_bin_woven_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.weaver.recipes.input_bin_woven_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.weaver.recipes.input_bin_woven_recipe.flavor)",
+   "portrait": "/stonehearth/entities/containers/input_bin_woven/input_bin_woven.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "fiber resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:containers:input_bin:woven"
+      }
+   ]
+}

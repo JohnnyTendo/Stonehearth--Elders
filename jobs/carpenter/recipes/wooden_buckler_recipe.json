@@ -1,0 +1,19 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.wooden_buckler_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.wooden_buckler_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/armor/wooden_buckler/wooden_buckler.png",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:wooden_buckler"
+      }
+   ]
+}

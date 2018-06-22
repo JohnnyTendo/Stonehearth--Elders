@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.weaver.recipes.banner_wall_big_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.weaver.recipes.banner_wall_big_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.weaver.recipes.banner_wall_big_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/banner_wall_big/banner_wall_big.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "material": "cloth resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:banner_wall_big"
+      }
+   ]
+}

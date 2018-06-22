@@ -1,0 +1,13 @@
+{
+   "mixins": "stonehearth:jobs:weaver",
+   "talisman_uri": "elders:jobs:weaver:talisman",
+   "equipment": {
+		"torso": "file(weaver_outfit/weaver_outfit.json)",
+    "helmet": "file(weaver_outfit/weaver_helm.json)",
+    "mainhand": "elders:jobs:weaver:spindle"
+   },
+   "icon": "file(images/icon.png)",
+   "crafter": {
+      "recipe_list": "/elders/jobs/weaver/recipes/recipes.json"
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.wooden_window_frame_tall_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.wooden_window_frame_tall_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/construction/wooden_window_frame_tall/wooden_window_frame_tall.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:portals:wooden_window_frame_tall"
+      }
+   ]
+}

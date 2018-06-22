@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 4,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.wooden_door_2_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.wooden_door_2_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.wooden_door_2_recipe.flavor)",
+   "portrait": "/stonehearth/entities/construction/wooden_door_2/wooden_door_2.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:resources:iron:ore",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:portals:wooden_door_2"
+      }
+   ]
+}

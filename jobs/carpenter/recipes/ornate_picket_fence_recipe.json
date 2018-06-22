@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 5,
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.ornate_picket_fence_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.ornate_picket_fence_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.ornate_picket_fence_recipe.flavor)",
+   "portrait": "/stonehearth/entities/construction/ornate_picket_fence/ornate_picket_fence.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:construction:ornate_picket_fence"
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(weaver_spindle_iconic.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.14
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.weaver.weaver_spindle.weaver_spindle_iconic.display_name)",
+         "description": "i18n(stonehearth:jobs.weaver.weaver_spindle.weaver_spindle_iconic.description)",
+         "icon": "file(weaver_spindle.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "tool"
+      }
+   }
+}

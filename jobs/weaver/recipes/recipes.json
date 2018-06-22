@@ -1,0 +1,154 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.workbenches_name)",
+         "recipes": {
+            "weaver_workbench": {
+               "recipe": "file(weaver_workbench_recipe.json)"
+            },
+            "weaver_loom": {
+               "recipe": "file(weaver_loom_recipe.json)"
+            },
+            "weaver_spinning_wheel": {
+               "recipe": "file(weaver_spinning_wheel_recipe.json)"
+            }
+         }
+      },
+      "legendary": {
+         "ordinal": 5,
+         "name": "i18n(stonehearth:jobs.common.recipes.legendary_name)",
+         "recipes": {
+            "silver_bowstring": {
+               "recipe": "file(legendary_bowstring_recipe.json)"
+            },
+            "woven_grip": {
+               "recipe": "file(legendary_grip_recipe.json)"
+            }
+         }
+      },
+      "furniture": {
+         "ordinal": 20,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.furniture_name)",
+         "recipes": {
+            "amberstone_bed": {
+               "recipe": "file(amberstone_bed_recipe.json)"
+            },
+            "amberstone_chair": {
+               "recipe": "file(amberstone_chair_recipe.json)"
+            }
+         }
+      },
+      "storage": {
+         "ordinal": 30,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.storage_name)",
+         "recipes": {
+            "input_bin_woven": {
+               "recipe": "file(input_bin_woven_recipe.json)"
+            },
+            "input_bin_woven_blue": {
+               "recipe": "file(input_bin_woven_blue_recipe.json)"
+            },
+            "input_bin_woven_green": {
+               "recipe": "file(input_bin_woven_green_recipe.json)"
+            },
+            "input_bin_woven_red": {
+               "recipe": "file(input_bin_woven_red_recipe.json)"
+            },
+            "input_bin_amberstone": {
+               "recipe": "file(input_bin_amberstone_recipe.json)"
+            },
+            "amberstone_chest": {
+               "recipe": "file(amberstone_chest_recipe.json)"
+            }
+         }
+      },
+      "crafting_materials": {
+         "ordinal": 40,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.crafting_materials_name)",
+         "recipes": {
+            "thread": {
+               "recipe": "file(thread_recipe.json)"
+            },
+            "cloth_bolt": {
+               "recipe": "file(cloth_bolt_recipe.json)"
+            },
+            "leather_bolt": {
+               "recipe": "file(leather_bolt_recipe.json)"
+            }
+         }
+      },
+      "clothing_armor": {
+         "ordinal": 50,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.clothing_armor_name)",
+         "recipes": {
+            "worker_outfit_2": {
+               "recipe": "file(worker_outfit_2_recipe.json)"
+            },
+            "worker_outfit_winter": {
+               "recipe": "file(worker_outfit_winter_recipe.json)"
+            },
+            "cloth_padded_vest": {
+               "recipe": "file(cloth_padded_vest_recipe.json)"
+            },
+            "leather_helmet": {
+               "recipe": "file(leather_helmet_recipe.json)"
+            },
+            "leather_vest": {
+               "recipe": "file(leather_vest_recipe.json)"
+            },
+            "simple_quiver": {
+               "recipe": "file(simple_quiver_recipe.json)"
+            },
+            "fire_quiver": {
+               "recipe": "file(fire_quiver_recipe.json)"
+            },
+            "cloth_padded_helmet": {
+               "recipe": "file(cloth_padded_helmet_recipe.json)"
+            }
+         }
+      },
+      "decorations": {
+         "ordinal": 80,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.decorations_name)",
+         "recipes": {
+            "amberstone_painting_branch": {
+               "recipe": "file(amberstone_painting_branch_recipe.json)"
+            },
+            "amberstone_mat": {
+               "recipe": "file(amberstone_mat_recipe.json)"
+            },
+            "banner_wall_big": {
+               "recipe": "file(banner_wall_big_recipe.json)"
+            },
+            "banner_wall_small": {
+               "recipe": "file(banner_wall_small_recipe.json)"
+            },
+            "tapestry_wall": {
+               "recipe": "file(tapestry_wall_recipe.json)"
+            },
+            "curtains": {
+               "recipe": "file(curtains_recipe.json)"
+            },
+            "throw_rug": {
+               "recipe": "file(throw_rug_recipe.json)"
+            },
+            "fur_rug": {
+               "recipe": "file(fur_rug_recipe.json)"
+            },
+            "wooden_sign_weaver": {
+               "recipe": "file(wooden_sign_weaver_recipe.json)"
+            }
+         }
+      },
+      "toys": {
+         "ordinal": 90,
+         "name": "i18n(stonehearth:jobs.weaver.recipes.toys_name)",
+         "recipes": {
+            "plushie_toy_rabbit": {
+               "recipe": "file(plushie_toy_rabbit_recipe.json)"
+            }
+         }
+      }
+   }
+}

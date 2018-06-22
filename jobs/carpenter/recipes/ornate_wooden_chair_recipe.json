@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 65,
+   "work_units": 4,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.ornate_wooden_chair_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.ornate_wooden_chair_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.ornate_wooden_chair_recipe.flavor)",
+   "portrait": "/stonehearth/entities/furniture/ornate_wooden_chair/ornate_wooden_chair.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:gold_flakes",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:furniture:ornate_wooden_chair"
+      }
+   ]
+}

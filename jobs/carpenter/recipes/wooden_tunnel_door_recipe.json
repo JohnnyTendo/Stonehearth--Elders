@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 50,
+   "work_units": 5,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.wooden_tunnel_door_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.wooden_tunnel_door_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/construction/wooden_tunnel_door/wooden_tunnel_door.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:portals:wooden_tunnel_door"
+      }
+   ]
+}

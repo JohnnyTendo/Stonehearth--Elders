@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 8,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.giants_face_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.giants_face_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.giants_face_recipe.flavor)",
+   "portrait": "/stonehearth/entities/refined/legendary_face/legendary_face.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 4,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 3
+      },
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:leather_bolt",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:refined:legendary:face"
+      }
+   ]
+}

@@ -30,6 +30,9 @@
 		},
 		"stonehearth:jobs:shepherd": {
 			"description": "elders:jobs:shepherd"
+		},
+		"stonehearth:jobs:weaver": {
+			"description": "elders:jobs:weaver"
 		}
 	}
 }

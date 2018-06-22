@@ -1,0 +1,39 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 20,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.bow_valor_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.bow_valor_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.bow_valor_recipe.flavor)",
+   "portrait": "/stonehearth/entities/weapons/legendary_bow/legendary_bow.png",
+   "workshop": "stonehearth:carpenter:toolbench",
+   "level_requirement": 6,
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:legendary:mechanism",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:legendary:bowstring",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:refined:silver_ingot",
+         "count": 2
+      },
+      {
+         "uri": "stonehearth:refined:leather_bolt",
+         "count": 2
+      },
+      {
+         "material": "wood resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:weapons:legendary:bow"
+      }
+   ]
+}

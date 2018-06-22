@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "effort": 35,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.window_box_brightbell_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.window_box_brightbell_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.window_box_brightbell_recipe.flavor)",
+   "portrait": "/stonehearth/entities/decoration/window_box_brightbell/window_box_brightbell.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:resources:herb:brightbell",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:decoration:window_box:brightbell"
+      }
+   ]
+}

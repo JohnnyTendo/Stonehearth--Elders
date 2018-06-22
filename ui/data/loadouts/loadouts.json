@@ -106,7 +106,7 @@
             {
                "display_name": "i18n(stonehearth:jobs.weaver.weaver_description.display_name)",
                "type": "entity",
-               "uri": "stonehearth:weaver:talisman",
+               "uri": "elders:jobs:weaver:talisman",
                "icon": "file(images/items/weaver_spindle.png)",
                "amount": 1
             },

@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "effort": 20,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.wooden_diamond_window_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.wooden_diamond_window_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.wooden_diamond_window_recipe.flavor)",
+   "portrait": "/stonehearth/entities/construction/wooden_diamond_window/wooden_diamond_window.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:portals:wooden_diamond_window"
+      }
+   ]
+}

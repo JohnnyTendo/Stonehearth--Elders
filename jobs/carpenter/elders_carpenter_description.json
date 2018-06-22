@@ -3,5 +3,8 @@
    "equipment": {
       "torso": "file(carpenter_outfit)",
 	  "helmet": "file(carpenter_outfit/carpenter_helm.json)"
+   },
+   "crafter": {
+      "recipe_list": "/elders/jobs/carpenter/recipes/recipes.json"
    }
 }

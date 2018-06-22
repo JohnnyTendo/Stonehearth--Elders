@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.safety_standard_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.safety_standard_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/gizmos/safety_standard/safety_standard.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "material": "cloth resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:safety_standard"
+      }
+   ]
+}

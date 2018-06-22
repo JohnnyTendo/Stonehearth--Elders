@@ -1,0 +1,22 @@
+{
+   "type": "recipe",
+   "effort": 30,
+   "work_units": 3,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.wooden_chair_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.wooden_chair_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.carpenter.recipes.wooden_chair_recipe.flavor)",
+   "portrait": "/stonehearth/entities/furniture/wooden_chair/wooden_chair.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:furniture:wooden_chair"
+      }
+   ]
+}
