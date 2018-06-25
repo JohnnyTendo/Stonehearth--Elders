@@ -1,0 +1,6 @@
+{
+   "mixins": "stonehearth:jobs:farmer",
+   "equipment": {
+      "torso": "file(farmer_outfit/farmer_outfit.json)"
+   }
+}

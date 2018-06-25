@@ -1,9 +1,13 @@
 {
+   "mixintypes": { 
+   "loadouts" : "override" 
+   },
    "type": "index",
    "random_pets": [],
    "loadouts": [
       {
-         "alias": "stonehearth:data:loadouts:food_for_days",
+         "ordinal": 1,
+		 "alias": "stonehearth:data:loadouts:food_for_days",
          "display_name": "i18n(stonehearth:data.loadouts.food_for_days.display_name)",
          "description": "i18n(stonehearth:data.loadouts.food_for_days.description)",
          "tooltip": "i18n(stonehearth:data.loadouts.food_for_days.tooltip)",
@@ -49,6 +53,7 @@
          ]
       },
       {
+		 "ordinal": 2,
          "alias": "stonehearth:data:loadouts:merchant_caravan",
          "display_name": "i18n(stonehearth:data.loadouts.merchant_caravan.display_name)",
          "description": "i18n(stonehearth:data.loadouts.merchant_caravan.description)",
@@ -95,7 +100,8 @@
          ]
       },
       {
-         "alias": "stonehearth:data:loadouts:money_solves_all_problems",
+         "ordinal": 3,
+		 "alias": "stonehearth:data:loadouts:money_solves_all_problems",
          "display_name": "i18n(stonehearth:data.loadouts.money_solves_all_problems.display_name)",
          "description": "i18n(stonehearth:data.loadouts.money_solves_all_problems.description)",
          "tooltip": "i18n(stonehearth:data.loadouts.money_solves_all_problems.tooltip)",
@@ -132,12 +138,6 @@
                "amount": 100
             }
          ]
-      },
-      {
-         "enabled": false
-      },
-      {
-         "enabled": false
       }
    ]
 }

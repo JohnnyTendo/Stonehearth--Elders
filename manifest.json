@@ -22,6 +22,8 @@
 		"jobs:engineer:helm": "file(jobs/engineer/engineer_outfit/engineer_helm.json)",
 		"jobs:engineer:talisman": "file(jobs/engineer/engineer_wrench/engineer_wrench_talisman.json)",
 		"jobs:engineer:wrench": "file(jobs/engineer/engineer_wrench/engineer_wrench.json)",
+		"jobs:farmer": "file(jobs/farmer/elders_farmer_description.json)",
+		"jobs:farmer:outfit": "file(jobs/farmer/farmer_outfit/farmer_outfit.json)",
 		"jobs:carpenter": "file(jobs/carpenter/elders_carpenter_description.json)",
 		"jobs:carpenter:outfit": "file(jobs/carpenter/carpenter_outfit/carpenter_outfit.json)",
 		"jobs:carpenter:helm": "file(jobs/carpenter/carpenter_outfit/carpenter_helm.json)",

@@ -19,6 +19,9 @@
 		"stonehearth:jobs:engineer": {
 			"description": "elders:jobs:engineer"
 		},
+		"stonehearth:jobs:farmer": {
+			"description": "elders:jobs:farmer"
+		},
 		"stonehearth:jobs:footman": {
 			"description": "elders:jobs:footman"
 		},

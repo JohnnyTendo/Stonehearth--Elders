@@ -3,6 +3,7 @@ X	stonegolems to Oreads
 X	entlings to Dryads
 X Loadout
 X	changed Talismans in loadout
+X	fixed loadout
 Entities
 	Workbenches
 		carpenter
@@ -40,10 +41,10 @@ X	rework shepherd
 X		Outfit
 	rework Blacksmith
 		items
-		knight talisman
-X		engineer talisman
-		storage
-X	Outfit
+			knight talisman
+X			engineer talisman
+			storage
+X		Outfit
 	rework Engineer
 X		talisman
 X		rename to elemental defender
@@ -61,8 +62,8 @@ X		Outfit
 X	rework cleric
 X		talisman
 X		Outfit
-	rework farmer
-		outfit
+X	rework farmer
+X		outfit
 	rework cook
 		Outfit
 		items
