@@ -1,10 +1,10 @@
-[X] Rename
-[X]	stonegolems to Oreads
-[X]	entlings to Dryads
-[X] Loadout
-[X]	changed Talismans in loadout
-[X]	fixed loadout
-[]Entities
+-[X] Rename
+-[X]	stonegolems to Oreads
+-[X]	entlings to Dryads
+-[X] Loadout
+-[X]	changed Talismans in loadout
+-[X]	fixed loadout
+-[]Entities
 []	Workbenches
 []		carpenter
 []		Mason
