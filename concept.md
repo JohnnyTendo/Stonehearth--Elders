@@ -50,12 +50,12 @@
 			[X] talisman
 			[X] rename to elemental defender
 			[] items
-					[] turrets
+				[] turrets
 			[X] Outfit
 ##### [] rework weaver
 			[] items
-					[] thread to liana
-					[] spool of thread to spool of liana
+				[] thread to liana
+				[] spool of thread to spool of liana
 			[X] Outfit
 ##### [X]	rework herbalist
 			[X] items
