@@ -1,15 +1,15 @@
 # **To-Do:**
 ## [X] Rename
-		[X]	stonegolems to Oreads
-		[X]	entlings to Dryads
+		[X] stonegolems to Oreads
+		[X] entlings to Dryads
 ## [X] Loadout
-		[X]	changed Talismans in loadout
-		[X]	fixed loadout
+		[X] changed Talismans in loadout
+		[X] fixed loadout
 ## []Entities
 		[X] change gold currency into spirit
 		[X] implement new Talisman recipes
-				[X] cleric
-				[X] trapper
+			[X] cleric
+			[X] trapper
 ##### []	Workbenches
 			[] carpenter
 			[] Mason
@@ -45,7 +45,7 @@
 				[] knight talisman
 				[X] engineer talisman
 			[] storage
-			[X]	Outfit
+			[X] Outfit
 ##### [] rework Engineer
 			[X] talisman
 			[X] rename to elemental defender
