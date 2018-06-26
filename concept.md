@@ -1,18 +1,19 @@
-#-[X] Rename
-#-[X]	stonegolems to Oreads
-#-[X]	entlings to Dryads
-#-[X] Loadout
-#-[X]	changed Talismans in loadout
-#-[X]	fixed loadout
-#-[]Entities
-[]	Workbenches
-[]		carpenter
-[]		Mason
-[]		Blacksmith
-[]		Potter
-[]		weaver
-[]		herbalist
-[]		cook
+# [X] Rename
+
+		[X]	stonegolems to Oreads
+		[X]	entlings to Dryads
+		[X] Loadout
+# [X]	changed Talismans in loadout
+		[X]	fixed loadout
+# []Entities
+## []	Workbenches
+			[]		carpenter
+			[]		Mason
+			[]		Blacksmith
+			[]		Potter
+			[]		weaver
+			[]		herbalist
+			[]		cook
 [X]	change gold currency into spirit
 [X]	implement new Talisman recipes
 [X]		cleric
