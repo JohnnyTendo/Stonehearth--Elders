@@ -15,7 +15,7 @@
 			[]		herbalist
 			[]		cook
 ## [X] change gold currency into spirit
-			[X]	implement new Talisman recipes
+## [X]	implement new Talisman recipes
 			[X]		cleric
 			[X]		trapper
 ## [X] rework Worker
@@ -28,11 +28,11 @@
 				[]			furniture
 				[]			utillity
 				[]			weapons and armor
-[]	rework Mason
-[]		items
-[]		furniture
-[X]		Outfit
-[]	rework Potter
+## []	rework Mason
+			[]		items
+			[]		furniture
+			[X]		Outfit
+## []	rework Potter
 []		items
 []		Outfit
 [X]	rework trapper
