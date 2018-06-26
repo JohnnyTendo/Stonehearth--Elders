@@ -2,8 +2,8 @@
 
 		[X]	stonegolems to Oreads
 		[X]	entlings to Dryads
-		[X] Loadout
-# [X]	changed Talismans in loadout
+# [X] Loadout
+		[X]	changed Talismans in loadout
 		[X]	fixed loadout
 # []Entities
 ## []	Workbenches
@@ -14,20 +14,20 @@
 			[]		weaver
 			[]		herbalist
 			[]		cook
-[X]	change gold currency into spirit
-[X]	implement new Talisman recipes
-[X]		cleric
-[X]		trapper
-[X]	rework Worker
-[]		tools
-[X]		Outfit
-[]	rework Carpenter
-[]		items
-[]			furniture
-[]			utillity
-[]			weapons and armor
-[X]		Outfit
-[X]		rework outfit
+## [X] change gold currency into spirit
+			[X]	implement new Talisman recipes
+			[X]		cleric
+			[X]		trapper
+## [X] rework Worker
+			[]		tools
+			[X]		Outfit
+## []	rework Carpenter
+			[X] Outfit
+			[X] rework outfit
+### []		items
+				[]			furniture
+				[]			utillity
+				[]			weapons and armor
 []	rework Mason
 []		items
 []		furniture
