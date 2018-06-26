@@ -7,20 +7,20 @@
 		[X]	fixed loadout
 ## []Entities
 		[X] change gold currency into spirit
-		[X]	implement new Talisman recipes
-				[X]		cleric
-				[X]		trapper
+		[X] implement new Talisman recipes
+				[X] cleric
+				[X] trapper
 ##### []	Workbenches
-			[]		carpenter
-			[]		Mason
-			[]		Blacksmith
-			[]		Potter
-			[]		weaver
-			[]		herbalist
-			[]		cook
+			[] carpenter
+			[] Mason
+			[] Blacksmith
+			[] Potter
+			[] weaver
+			[] herbalist
+			[] cook
 ##### [X] rework Worker
-			[]		tools
-			[X]		Outfit
+			[O] tools
+			[X] Outfit
 ##### []	rework Carpenter
 			[X] Outfit
 			[X] rework outfit
@@ -34,16 +34,16 @@
 			[X] Outfit
 ##### []	rework Potter
 			[] items
-			[] Outfit
+			[X] Outfit
 ##### [X]	rework trapper
 			[X] Outfit
-			[X]	Talisman
+			[X] Talisman
 ##### [X]	rework shepherd
-			[X]	Outfit
+			[X] Outfit
 ##### []	rework Blacksmith
 			[] items
-					[] knight talisman
-					[X] engineer talisman
+				[] knight talisman
+				[X] engineer talisman
 			[] storage
 			[X]	Outfit
 ##### [] rework Engineer
@@ -78,21 +78,21 @@
 ### []Templates
 			[] Building templates
 ### [] UI
-			[X]	gold to spirit count
-			[X]	a LOT
-			[X]	'special buttons' should use the color setting from the Town Overview tabs or other way round (e.g. the unit_frame command-button-bg.png)
-			[X]	rework well.png and well2.png (the stone optic looks like s**t in the Wooden setting)
-			[X]	is the dock.png okay?
-			[]	rework clock
-			[X]	rework town overview banners
-			[X]	rework combat banners and buttons
-			[]	New combat banners are not shown in unit_frame
+			[X] gold to spirit count
+			[X] a LOT
+			[X] 'special buttons' should use the color setting from the Town Overview tabs or other way round (e.g. the unit_frame command-button-bg.png)
+			[X] rework well.png and well2.png (the stone optic looks like s**t in the Wooden setting)
+			[X] is the dock.png okay?
+			[] rework clock
+			[X] rework town overview banners
+			[X] rework combat banners and buttons
+			[] New combat banners are not shown in unit_frame
 ### [X] Trivia
 		[X]	Town names not working properly
 		[X]	Population Text
 		[X]	Population Pictures
 ### []Localizations
-			[]	Check names
+			[] Check names
 
 # **Ideas**
 ### Jobs
