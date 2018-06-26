@@ -6,6 +6,10 @@
 		[X]	changed Talismans in loadout
 		[X]	fixed loadout
 # []Entities
+		[X] change gold currency into spirit
+		[X]	implement new Talisman recipes
+				[X]		cleric
+				[X]		trapper
 ## []	Workbenches
 			[]		carpenter
 			[]		Mason
@@ -14,17 +18,13 @@
 			[]		weaver
 			[]		herbalist
 			[]		cook
-## [X] change gold currency into spirit
-## [X]	implement new Talisman recipes
-			[X]		cleric
-			[X]		trapper
 ## [X] rework Worker
 			[]		tools
 			[X]		Outfit
 ## []	rework Carpenter
 			[X] Outfit
 			[X] rework outfit
-### []		items
+			[] items
 				[]			furniture
 				[]			utillity
 				[]			weapons and armor
@@ -33,12 +33,12 @@
 			[]		furniture
 			[X]		Outfit
 ## []	rework Potter
-[]		items
-[]		Outfit
-[X]	rework trapper
-[X]		Outfit
-[X]		Talisman
-[X]	rework shepherd
+			[]		items
+			[]		Outfit
+## [X]	rework trapper
+			[X]		Outfit
+			[X]		Talisman
+## [X]	rework shepherd
 [X]		Outfit
 []	rework Blacksmith
 []		items
