@@ -13,6 +13,9 @@
 		"stonehearth:jobs:herbalist": {
 			"description": "elders:jobs:herbalist"
 		},
+    "stonehearth:jobs:knight": {
+			"description": "elders:jobs:knight"
+		},
 		"stonehearth:jobs:cleric": {
 			"description": "elders:jobs:cleric"
 		},

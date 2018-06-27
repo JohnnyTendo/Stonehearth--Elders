@@ -45,9 +45,9 @@
 			[X] Outfit
 ##### []	rework Blacksmith
 			[] items
-				[] knight talisman
+				[X] knight talisman
 				[X] engineer talisman
-			[] storage
+				[] storage
 			[X] Outfit
 ##### [] rework Engineer
 			[X] talisman
@@ -69,13 +69,13 @@
 ##### [X]	rework farmer
 			[X] outfit
 ##### [] rework cook
-			[] Outfit
+			[X] Outfit
 			[] items
 ##### [X] rework footman
 			[X] Outfit
-##### []	rework knight
-			[] talisman
-			[] Outfit
+##### [] rework knight
+			[X] talisman
+			[>] Outfit
 ##### [] rework archer
 			[] Outfit
 ### []Templates

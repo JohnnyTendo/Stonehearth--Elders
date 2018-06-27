@@ -2,10 +2,10 @@
    "type": "recipe",
    "effort": 60,
    "work_units": 10,
-   "recipe_name": "i18n(stonehearth:jobs.blacksmith.recipes.knights_shield_recipe.recipe_name)",
-   "description": "i18n(stonehearth:jobs.blacksmith.recipes.knights_shield_recipe.description)",
+   "display_name": "i18n(elders:jobs.knight.knights_shield.display_name)",
+   "description": "i18n(elders:jobs.knight.knights_shield.description)",
    "flavor": "",
-   "portrait": "/stonehearth/entities/armor/knights_shield/knights_shield.png",
+   "portrait": "/elders/jobs/knight/knight_shield/knight_shield.png",
    "workshop": "stonehearth:blacksmith:workbench",
    "level_requirement": 2,
    "ingredients": [
@@ -20,7 +20,7 @@
    ],
    "produces": [
       {
-         "item": "stonehearth:knight:talisman"
+         "item": "elders:jobs:knight:talisman"
       }
    ]
 }
