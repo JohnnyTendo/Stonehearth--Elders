@@ -24,6 +24,7 @@
 ##### [X] rework Worker
 			[O] tools
 			[X] Outfit
+			[X] Outfit_2
 ##### []	rework Carpenter
 			[X] Outfit
 			[X] rework outfit
