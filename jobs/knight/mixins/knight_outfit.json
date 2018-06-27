@@ -1,0 +1,24 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "mixin",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "roles": "worker_job",
+         "ilevel": 2,
+         "injected_buffs": [
+            "elders:buffs:unleashed"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+        "display_name": "i18n(stonehearth:jobs.knight.knight_outfit.display_name)",
+        "description": "i18n(stonehearth:jobs.knight.knight_outfit.description)",
+         "is_item": true,
+         "category": "armor"
+      }
+   }
+}

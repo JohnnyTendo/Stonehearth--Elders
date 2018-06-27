@@ -60,6 +60,7 @@
 			[] items
 				[] thread to liana
 				[] spool of thread to spool of liana
+				[X] add worker_uniform_2_recipe
 			[X] Outfit
 ##### [X]	rework herbalist
 			[X] items

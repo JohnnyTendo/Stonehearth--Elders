@@ -20,7 +20,7 @@
    ],
    "produces": [
       {
-         "item": "stonehearth:worker:outfit:2"
+         "item": "elders:jobs:worker:outfit2"
       }
    ]
 }

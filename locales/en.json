@@ -9,6 +9,12 @@
 	"data": {
 		"elders_population": {
 			"display_name": "The Elders"
+		},
+		"buffs": {
+			"unleashed_buff": {
+				"display_name": "Unleashed",
+				"description": "Unleashes the fury of nature."
+			}
 		}
 	},
 	"entities": {
@@ -32,16 +38,16 @@
 			"engineer_wrench": {
 				"display_name": "Elemental Staff",
 				"description": "The staff of an elemantalist."
-			},
-			"knight": {
-					"knight_description": {
-					"display_name": "Natures Fury",
-					"description": "Awake the fury in your soldiers and unleash the brute force of an earthquake upon your enemies."
-					},
-					"knight_shield": {
-					"display_name": "Insignia of Fury",
-					"description": "Unleashes the Fury"
-				}
+			}
+		},
+		"knight": {
+				"knight_description": {
+				"display_name": "Natures Fury",
+				"description": "Awake the fury in your soldiers and unleash the brute force of an earthquake upon your enemies."
+				},
+				"knight_shield": {
+				"display_name": "Insignia of Fury",
+				"description": "Unleashes the Fury"
 			}
 		}
 	}
