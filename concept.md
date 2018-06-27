@@ -10,7 +10,10 @@
 		[X] implement new Talisman recipes
 			[X] cleric
 			[X] trapper
-##### []	Workbenches
+##### [] Food
+			[] rework Food
+			[] rework Crops
+##### [] Workbenches
 			[] carpenter
 			[] Mason
 			[] Blacksmith
@@ -68,7 +71,7 @@
 ##### [] rework cook
 			[] Outfit
 			[] items
-##### [] rework footman
+##### [X] rework footman
 			[X] Outfit
 ##### []	rework knight
 			[] talisman

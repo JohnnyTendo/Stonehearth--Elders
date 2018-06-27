@@ -17,6 +17,8 @@
 		"jobs:blacksmith": "file(jobs/blacksmith/elders_blacksmith_description.json)",
 		"jobs:blacksmith:outfit": "file(jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.json)",
 		"jobs:blacksmith:helm": "file(jobs/blacksmith/blacksmith_outfit/blacksmith_helm.json)",
+		"jobs:cook": "file(jobs/cook/elders_cook_description.json)",
+		"jobs:cook:outfit": "file(jobs/cook/cook_outfit/cook_outfit.json)",
 		"jobs:engineer": "file(jobs/engineer/elders_engineer_description.json)",
 		"jobs:engineer:outfit": "file(jobs/engineer/engineer_outfit/engineer_outfit.json)",
 		"jobs:engineer:helm": "file(jobs/engineer/engineer_outfit/engineer_helm.json)",

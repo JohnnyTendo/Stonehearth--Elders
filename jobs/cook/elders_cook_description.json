@@ -1,0 +1,6 @@
+{
+   "mixins": "stonehearth:jobs:cook",
+   "equipment": {
+      "torso": "file(cook_outfit/cook_outfit.json)"
+   }
+}

@@ -16,6 +16,9 @@
 		"stonehearth:jobs:cleric": {
 			"description": "elders:jobs:cleric"
 		},
+    "stoneherath:jobs:cook": {
+      "description": "elders:jobs:cook"
+    },
 		"stonehearth:jobs:engineer": {
 			"description": "elders:jobs:engineer"
 		},
