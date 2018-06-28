@@ -31,9 +31,6 @@
 		"stonehearth:jobs:footman": {
 			"description": "elders:jobs:footman"
 		},
-		"stonehearth:jobs:worker": {
-			"description": "elders:jobs:worker"
-		},
 		"stonehearth:jobs:trapper": {
 			"description": "elders:jobs:trapper"
 		},
@@ -45,6 +42,9 @@
 		},
 		"stonehearth:jobs:weaver": {
 			"description": "elders:jobs:weaver"
+		},
+		"stonehearth:jobs:worker": {
+			"description": "elders:jobs:worker"
 		}
 	}
 }

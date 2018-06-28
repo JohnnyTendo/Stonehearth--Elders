@@ -5,14 +5,30 @@
 ## [X] Loadout
 		[X] changed Talismans in loadout
 		[X] fixed loadout
+## [] Job Tree
+		[] Icons
+			[] Archer
+			[] Carpenter
+			[] Mason
+			[] Cleric
+			[] Herbalist
+			[] Farmer
+			[] Footman
+			[] Worker
+			[] Potter
+			[] Blacksmith
+			[] Shepherd
+			[] Trapper
+			[] Weaver
+			[] Engineer
 ## []Entities
 		[X] change gold currency into spirit
 		[X] implement new Talisman recipes
 			[X] cleric
 			[X] trapper
 ##### [] Food
-			[] rework Food
-			[] rework Crops
+			[] rework Food to Prana
+			[] rework Crops to buds
 ##### [] Workbenches
 			[] carpenter
 			[] Mason
@@ -25,6 +41,7 @@
 			[O] tools
 			[X] Outfit
 			[X] Outfit_2
+			[] rename worker to drone
 ##### []	rework Carpenter
 			[X] Outfit
 			[X] rework outfit
@@ -62,24 +79,30 @@
 				[] spool of thread to spool of liana
 				[X] add worker_uniform_2_recipe
 			[X] Outfit
-##### [X]	rework herbalist
+##### [X] rework herbalist
 			[X] items
 			[X] Outfit
-##### [X]	rework cleric
+##### [X] rework cleric
 			[X] talisman
 			[X] Outfit
-##### [X]	rework farmer
+##### [X] rework farmer
+			[] rename to gatherer
 			[X] outfit
 ##### [] rework cook
 			[X] Outfit
+			[?] remove
 			[] items
 ##### [X] rework footman
 			[X] Outfit
 ##### [] rework knight
 			[X] talisman
-			[>] Outfit
+			[X] Outfit
+			[>] Outfit_2
 ##### [] rework archer
 			[] Outfit
+			[] Bow
+			[] Arrows should be greenish
+			[] convert burn to venomous
 ### []Templates
 			[] Building templates
 ### [] UI
