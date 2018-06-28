@@ -67,7 +67,7 @@
       "stonehearth/ui/root/css/images/gui/tab.png" : "file(gui/tab.png)",
       "stonehearth/ui/root/css/images/gui/tab_active.png" : "file(gui/tab_active.png)",
 	  "stonehearth/ui/root/css/images/gui/button.png" : "file(gui/button.png)",
-      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "file(/elders/entities/standard/elders_camp_standard_ghost.json)"
+      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "file(/elders/entities/standard/camp_standard_ghost.json)"
    },
    "ui": {
       "less": [

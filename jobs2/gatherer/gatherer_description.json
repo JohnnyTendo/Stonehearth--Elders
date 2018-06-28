@@ -8,7 +8,7 @@
 	"controller": "stonehearth:class:farmer",
 	"description": "i18n(elders:jobs.gatherer.gatherer_description.description)",
 	"requirements": "i18n(elders:jobs.gatherer.gatherer_description.requirements)",
-	"talisman_uri": "",
+	"talisman_uri": "jobs:knight:talisman",
   "default_stance": "passive",
 	"abilities": "file(gatherer_abilities)",
 	"equipment": {
