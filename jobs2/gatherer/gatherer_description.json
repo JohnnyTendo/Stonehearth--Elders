@@ -1,0 +1,88 @@
+{
+	"type": "job",
+	"enabled": true,
+	"job_id": "gatherer",
+	"display_order": 2,
+	"alias": "elders:jobs:gatherer",
+	"display_name": "i18n(elders:jobs.gatherer.gatherer_description.display_name)",
+	"controller": "stonehearth:class:farmer",
+	"description": "i18n(elders:jobs.gatherer.gatherer_description.description)",
+	"requirements": "i18n(elders:jobs.gatherer.gatherer_description.requirements)",
+	"talisman_uri": "",
+  "default_stance": "passive",
+	"abilities": "file(gatherer_abilities)",
+	"equipment": {
+		"torso": "file(gatherer_outfit)"
+	},
+	"roles": "farmer_job",
+  "promotion_activity_name": "promote_farmer",
+	"icon": "file(images/icon.png)",
+  "parent_job": "elders:jobs:worker",
+	"task_groups": [
+    "stonehearth:task_groups:common_tasks",
+    "stonehearth:task_groups:restock",
+    "stonehearth:task_groups:farming",
+    "stonehearth:task_groups:placement",
+    "stonehearth:task_groups:rescue",
+    "stonehearth:task_groups:town_alert",
+		"stonehearth:task_groups:harvest"
+	],
+	"xp_rewards": {
+    "base_exp_per_harvest": 4,
+    "stonehearth:pumpkin_crop": 10,
+    "stonehearth:corn_crop": 30,
+    "stonehearth:crops:tester_crop": 120,
+    "stonehearth:crops:tester_crop_2": 120
+	},
+	"max_level": 6,
+	"level_data": {
+     "1": {
+        "perks": [
+           {
+              "type": "apply_buff",
+              "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_1_data.perk_000_name)",
+              "id": "farmer_speed_up_1",
+              "icon": "file(images/speed_up.png)",
+              "buff_name": "stonehearth:buffs:farmer:speed_1",
+              "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_1_data.perk_000_description)",
+              "level": 1,
+              "demote_fn": "remove_buff"
+           }
+        ]
+     },
+     "2": {
+        "perks": [
+           {
+              "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_2_data.perk_000_name)",
+              "id": "farmer_job_opportunities",
+              "icon": "file(images/gathererLv2.png)",
+              "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_2_data.perk_000_description)",
+              "level": 2
+           }
+        ]
+     },
+     "3": {
+        "perks": [
+           {
+              "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_3_data.perk_000_name)",
+              "id": "farmer_harvest_increase",
+              "icon": "file(images/gathererLv3.png)",
+              "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_3_data.perk_000_description)",
+              "level": 3
+           }
+        ]
+     },
+     "6": {
+        "title": "i18n(stonehearth:jobs.farmer.farmer_description.level_6_data.title)",
+        "perks": [
+           {
+              "name": "i18n(stonehearth:jobs.farmer.farmer_description.level_6_data.perk_000_name)",
+              "id": "farmer_seed_trade",
+              "icon": "file(images/gathererLv6.png)",
+              "description": "i18n(stonehearth:jobs.farmer.farmer_description.level_6_data.perk_000_description)",
+              "level": 6
+           }
+        ]
+     }
+  }
+}

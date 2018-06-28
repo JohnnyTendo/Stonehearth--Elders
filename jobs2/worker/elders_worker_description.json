@@ -1,0 +1,12 @@
+{
+   "mixins": "stonehearth:jobs:worker",
+   "display_name": "i18n(elders:jobs.worker.worker_description.display_name)",
+   "description": "i18n(elders:jobs.worker.worker_description.description)",
+   "equipment": {
+		"torso": "file(worker_outfit)",
+		"mainhand": {
+			"elders:jobs:worker:mining_pick"
+		}
+   },
+   "icon": "file(images/icon.png)"
+}

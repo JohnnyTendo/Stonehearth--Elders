@@ -11,7 +11,7 @@
    "starting_resource": "stonehearth:resources:wood:oak_log",
    "initial_town_name": "i18n(elders:kingdom.initial_town_name)",
    "camp_standard": "elders:camp_standard",
-   "job_index": "elders:jobs:index",
+   "job_index": "elders:jobs2:index",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
   "roles": {
       "default": {

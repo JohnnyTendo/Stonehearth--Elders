@@ -1,0 +1,10 @@
+{
+   "jobs": {
+		"stonehearth:jobs:worker": {
+			"description": "elders:jobs:worker"
+		},
+    "elders:jobs:gatherer": {
+     "description": "elders:jobs:gatherer"
+   }
+	}
+}

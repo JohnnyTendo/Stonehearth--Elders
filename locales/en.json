@@ -40,6 +40,12 @@
 				"description": "The staff of an elemantalist."
 			}
 		},
+		"worker": {
+			"worker_description": {
+				"display_name": "Drone",
+				"description": "The workers of nature."
+			}
+		},
 		"knight": {
 				"knight_description": {
 				"display_name": "Natures Fury",
@@ -49,6 +55,13 @@
 				"display_name": "Insignia of Fury",
 				"description": "Unleashes the Fury"
 			}
-		}
+		},
+		"gatherer": {
+			"gatherer_description": {
+				"display_name": "Gatherer",
+				"description": "The Gatherer collects the magic of nature to feed the Hive.",
+				"requirements": "Requires Magical Focus"
+			}
 	}
+}
 }

@@ -22,7 +22,9 @@
 			[] Weaver
 			[] Engineer
 			[X] Cook
+		[] or simply make a whole new job tree
 ## []Entities
+		[] change firepit (as override in ui sub-mod)
 		[X] change gold currency into spirit
 		[X] implement new Talisman recipes
 			[X] cleric
