@@ -1,0 +1,4 @@
+{
+   "mixins": "stonehearth:jobs:archer",
+   "icon": "file(images/icon.png)"
+}

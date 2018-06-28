@@ -1,6 +1,9 @@
 {
    "mixins": "stonehearth:jobs:index",
    "jobs": {
+     "stonehearth:jobs:archer": {
+ 			"description": "elders:jobs:archer"
+ 		},
 		"stonehearth:jobs:blacksmith": {
 			"description": "elders:jobs:blacksmith"
 		},
@@ -19,7 +22,7 @@
 		"stonehearth:jobs:cleric": {
 			"description": "elders:jobs:cleric"
 		},
-    "stoneherath:jobs:cook": {
+    "stonehearth:jobs:cook": {
       "description": "elders:jobs:cook"
     },
 		"stonehearth:jobs:engineer": {

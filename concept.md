@@ -7,13 +7,13 @@
 		[X] fixed loadout
 ## [] Job Tree
 		[] Icons
-			[] Archer
+			[X] Archer
 			[] Carpenter
 			[] Mason
 			[] Cleric
 			[] Herbalist
-			[] Farmer
-			[] Footman
+			[X] Farmer
+			[X] Footman
 			[] Worker
 			[] Potter
 			[] Blacksmith
@@ -21,6 +21,7 @@
 			[] Trapper
 			[] Weaver
 			[] Engineer
+			[X] Cook
 ## []Entities
 		[X] change gold currency into spirit
 		[X] implement new Talisman recipes
@@ -79,6 +80,7 @@
 				[] spool of thread to spool of liana
 				[X] add worker_uniform_2_recipe
 			[X] Outfit
+			[] rename
 ##### [X] rework herbalist
 			[X] items
 			[X] Outfit
@@ -91,15 +93,18 @@
 ##### [] rework cook
 			[X] Outfit
 			[?] remove
+			[] rename to Mana Refiner
 			[] items
 ##### [X] rework footman
 			[X] Outfit
+			[] rename
 ##### [] rework knight
 			[X] talisman
 			[X] Outfit
 			[>] Outfit_2
 ##### [] rework archer
 			[] Outfit
+			[] rename
 			[] Bow
 			[] Arrows should be greenish
 			[] convert burn to venomous

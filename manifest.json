@@ -15,6 +15,7 @@
 	  "oread": "file(entities/humans/male/oread.json)",
 		"buffs:unleashed": "file(data/buffs/unleashed/unleashed_buff.json)",
 	  "jobs:index": "file(jobs/index.json)",
+		"jobs:archer": "file(jobs/archer/elders_archer_description.json)",
 		"jobs:blacksmith": "file(jobs/blacksmith/elders_blacksmith_description.json)",
 		"jobs:blacksmith:outfit": "file(jobs/blacksmith/blacksmith_outfit/blacksmith_outfit.json)",
 		"jobs:blacksmith:helm": "file(jobs/blacksmith/blacksmith_outfit/blacksmith_helm.json)",
