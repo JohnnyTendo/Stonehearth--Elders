@@ -9,7 +9,8 @@
    "mixintos" :  {
       "stonehearth/ui/data/constants.json" : "file(ui/data/constants.json)",
       "stonehearth/locales/en.json": "elders/locales/en.json",
-	  "stonehearth/data/loadouts/loadouts.json" : "file(data/loadouts/loadouts.json)"
+	     "stonehearth/data/loadouts/loadouts.json" : "file(data/loadouts/loadouts.json)",
+       "stonehearth:traits_index": "file(data/traits/traits_index.json)"
    },
    "overrides" : {
 	  "stonehearth/entities/loot/gold/gold.json": "file(entities/loot/spirit/gold.json)",
@@ -67,7 +68,7 @@
       "stonehearth/ui/root/css/images/gui/tab.png" : "file(gui/tab.png)",
       "stonehearth/ui/root/css/images/gui/tab_active.png" : "file(gui/tab_active.png)",
 	  "stonehearth/ui/root/css/images/gui/button.png" : "file(gui/button.png)",
-      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "file(/elders/entities/standard/camp_standard_ghost.json)"
+      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "file(/entities/standard/camp_standard_ghost.json)"
    },
    "ui": {
       "less": [

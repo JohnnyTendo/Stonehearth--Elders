@@ -14,7 +14,6 @@
 	  "dryad": "file(entities/humans/female/dryad.json)",
 	  "oread": "file(entities/humans/male/oread.json)",
 		"buffs:unleashed": "file(data/buffs/unleashed/unleashed_buff.json)",
-
 	  "jobs:index": "file(jobs/index.json)",
 		"jobs:archer": "file(jobs/archer/elders_archer_description.json)",
 		"jobs:blacksmith": "file(jobs/blacksmith/elders_blacksmith_description.json)",
@@ -64,16 +63,14 @@
 		"jobs:trapper:knife": "file(jobs/trapper/trapper_knife/trapper_knife.json)",
 		"jobs:trapper:talisman": "file(jobs/trapper/trapper_knife/trapper_knife_talisman.json)",
 		"mixins:knight_outfit": "file(jobs/knight/mixins/knight_outfit.json)",
-
-		"jobs:worker": "file(jobs/worker/elders_worker_description.json)",
-		"jobs:worker:outfit": "file(jobs/worker/worker_outfit/worker_outfit.json)",
-		"jobs:worker:outfit2": "file(jobs/worker/worker_outfit_2/worker_outfit_2.json)",
-		"jobs:worker:mining_pick": "file(entities/tools/mining_pick/mining_pick.json)",
-		"jobs:worker:worker_hammer": "file(entities/tools/worker_hammer/worker_hammer.json)",
-
-		"jobs2:index": "file(jobs2/index.json)",
-		"jobs:gatherer": "file(jobs2/gatherer/gatherer_description.json)",
-		"jobs:gatherer:outfit": "file(jobs2/gatherer/gatherer_outfit/gatherer_outfit.json)",
+			"jobs:worker": "file(jobs/worker/elders_worker_description.json)",
+			"jobs:worker:outfit": "file(jobs/worker/worker_outfit/worker_outfit.json)",
+			"jobs:worker:outfit2": "file(jobs/worker/worker_outfit_2/worker_outfit_2.json)",
+			"jobs:worker:mining_pick": "file(entities/tools/mining_pick/mining_pick.json)",
+			"jobs:worker:worker_hammer": "file(entities/tools/worker_hammer/worker_hammer.json)",
+				"jobs2:index": "file(jobs2/index.json)",
+				"jobs:gatherer": "file(jobs2/gatherer/gatherer_description.json)",
+				"jobs:gatherer:outfit": "file(jobs2/gatherer/gatherer_outfit/gatherer_outfit.json)",
 
 		"camp_standard": "file(entities/standard/camp_standard.json)",
 		"loot:spirit": "",
@@ -82,5 +79,8 @@
 	"mixintos": {
 		"stonehearth:playable_kingdom_index": "file(data/elders_playable_kingdom_index.json)",
 		"stonehearth:data:gm_index": "elders:data:gm_index"
-	}
+	},
+	"controllers": {
+		"class:gatherer":	"file(jobs2/gatherer/gatherer.lua)"
+	},
 }
