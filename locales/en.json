@@ -112,6 +112,13 @@
 			"description": "Protector of the forests.",
 			"requirements": "crafted by the Awaker"
 		}
-}
+	},
+	"archer": {
+		"archer_description": {
+			"display_name": "",
+			"description": "",
+			"requirements": ""
+		}
+	}
 }
 }
