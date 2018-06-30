@@ -1,17 +1,10 @@
 {
-   "mixins": "stonehearth:jobs:index",
    "jobs": {
      "stonehearth:jobs:archer": {
  			"description": "elders:jobs:archer"
  		},
-		"stonehearth:jobs:blacksmith": {
-			"description": "elders:jobs:blacksmith"
-		},
 		"stonehearth:jobs:carpenter": {
 			"description": "elders:jobs:carpenter"
-		},
-		"stonehearth:jobs:mason": {
-			"description": "elders:jobs:mason"
 		},
 		"stonehearth:jobs:herbalist": {
 			"description": "elders:jobs:herbalist"
@@ -33,18 +26,6 @@
 		},
 		"stonehearth:jobs:footman": {
 			"description": "elders:jobs:footman"
-		},
-		"stonehearth:jobs:trapper": {
-			"description": "elders:jobs:trapper"
-		},
-		"stonehearth:jobs:potter": {
-			"description": "elders:jobs:potter"
-		},
-		"stonehearth:jobs:shepherd": {
-			"description": "elders:jobs:shepherd"
-		},
-		"stonehearth:jobs:weaver": {
-			"description": "elders:jobs:weaver"
 		},
 		"stonehearth:jobs:worker": {
 			"description": "elders:jobs:worker"

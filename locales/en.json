@@ -38,7 +38,8 @@
 			},
 			"carpenter_saw": {
 				"display_name": "Insignia of Growth",
-				"description": "Insignia of an Awaker."
+				"description": "Insignia of an Awaker.",
+				"flavor": ""
 			},
 			"recipes": {
 				"insignias": {
@@ -54,7 +55,8 @@
 			},
 			"engineer_wrench": {
 				"display_name": "Insignia of Elements",
-				"description": "Insignia of an elemantalist."
+				"description": "Insignia of an elemantalist.",
+				"flavor": ""
 			}
 		},
 		"worker": {
@@ -71,7 +73,8 @@
 				},
 				"knight_shield": {
 				"display_name": "Insignia of Fury",
-				"description": "Unleashes the Fury"
+				"description": "Unleashes the Fury",
+				"flavor": ""
 			}
 		},
 		"cleric": {
@@ -82,7 +85,8 @@
 				},
 				"cleric_tome": {
 				"display_name": "Insignia of Restoration",
-				"description": "Gives the abillity to restore what's lost."
+				"description": "Gives the abillity to restore what's lost.",
+				"flavor": ""
 			}
 		},
 		"farmer": {
@@ -90,35 +94,60 @@
 				"display_name": "Gatherer",
 				"description": "The Gatherer collects the magic of nature to feed the Hive.",
 				"requirements": "crafted by the Awaker"
+			},
+			"hoe": {
+				"display_name": "Insignia of Collection",
+				"description": "Used to gather Mana.",
+				"flavor": ""
 			}
-	},
-	"cook": {
-		"cook_description": {
-			"display_name": "Refiner",
-			"description": "Refines Mana to purer Prana",
-			"requirements": "crafted by the Awaker"
-		}
-	},
-	"herbalist": {
-		"herbalist_description": {
-			"display_name": "Whisperer",
-			"description": "Hears the whispers of wind, the roar of mountains and the sigh of forests.",
-			"requirements": "crafted by the Awaker"
-		}
-	},
-	"footman": {
-		"footman_description": {
-			"display_name": "Protector",
-			"description": "Protector of the forests.",
-			"requirements": "crafted by the Awaker"
-		}
-	},
-	"archer": {
-		"archer_description": {
-			"display_name": "",
+		},
+		"cook": {
+			"cook_description": {
+				"display_name": "Refiner",
+				"description": "Refines Mana to purer Prana",
+				"requirements": "crafted by the Awaker"
+			},
+			"cook_spoon": {
+				"display_name": "Insignia of Refinement",
+				"description": "Brings Mana to it's purest form.",
+				"flavor": ""
+			}
+		},
+		"herbalist": {
+			"herbalist_description": {
+				"display_name": "Whisperer",
+				"description": "Hears the whispers of wind, the roar of mountains and the sigh of forests.",
+				"requirements": "crafted by the Awaker"
+			},
+			"herbalist_staff": {
+				"display_name": "Insignia of Silence",
+				"description": "Listen to the sounds of nature.",
+				"flavor": ""
+			}
+		},
+		"footman": {
+			"footman_description": {
+				"display_name": "Protector",
+				"description": "Protector of the forests.",
+				"requirements": "crafted by the Awaker"
+			},
+			"wooden_sword": {
+				"display_name": "Insignia of protection",
+				"description": "",
+				"flavor": ""
+			}
+		},
+		"archer": {
+			"archer_description": {
+				"display_name": "",
+				"description": "",
+				"requirements": ""
+			}
+		},
+		"archer_bow": {
+			"display_name": "Insignia of ",
 			"description": "",
-			"requirements": ""
+			"flavor": ""
 		}
 	}
-}
 }

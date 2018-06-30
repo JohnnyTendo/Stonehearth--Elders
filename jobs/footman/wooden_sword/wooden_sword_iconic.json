@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wooden_sword.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(elders:jobs.footman.wooden_sword.display_name)",
+         "description": "i18n(elders:jobs.footman.wooden_sword.description)",
+         "icon": "file(wooden_sword.png)",
+         "is_item": true,
+         "category": "weapons",
+         "material_tags": "wood melee_weapon"
+      }
+   }
+}

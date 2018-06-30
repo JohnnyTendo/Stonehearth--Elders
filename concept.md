@@ -13,13 +13,11 @@
 			[] talisman
 ##### [] rework whisperer
 			[] items
-			[] talisman
 ##### [] rework restorer
 			[] talisman
 ##### [] rework gatherer
-			[] talisman
+			[] crops
 ##### [] rework refiner
-			[] talisman
 			[] items
 ##### [] rework protector
 			[] talisman
@@ -31,6 +29,7 @@
 ### [] UI
 			[] rework clock
 			[] New combat banners are not shown in unit_frame
+			[] rework loadout
 
 # **Ideas**
 ## town progression campaign

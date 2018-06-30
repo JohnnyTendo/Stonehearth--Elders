@@ -1,5 +1,6 @@
 {
    "mixins": "stonehearth:jobs:herbalist",
+   "talisman_uri": "elders:jobs:herbalist:talisman",
    "display_name": "i18n(elders:jobs.herbalist.herbalist_description.display_name)",
    "description": "i18n(elders:jobs.herbalist.herbalist_description.description)",
    "requirements": "i18n(elders:jobs.herbalist.herbalist_description.requirements)",

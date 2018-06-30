@@ -1,5 +1,6 @@
 {
    "mixins": "stonehearth:jobs:footman",
+   "talisman_uri": "elders:jobs:footman:talisman",
    "display_name": "i18n(elders:jobs.footman.footman_description.display_name)",
    "description": "i18n(elders:jobs.footman.footman_description.description)",
    "requirements": "i18n(elders:jobs.footman.footman_description.requirements)",

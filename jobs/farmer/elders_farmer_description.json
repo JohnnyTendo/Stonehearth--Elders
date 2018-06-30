@@ -1,5 +1,6 @@
 {
    "mixins": "stonehearth:jobs:farmer",
+   "talisman_uri": "elders:jobs:farmer:talisman",
    "display_name": "i18n(elders:jobs.farmer.farmer_description.display_name)",
    "description": "i18n(elders:jobs.farmer.farmer_description.description)",
    "requirements": "i18n(elders:jobs.farmer.farmer_description.requirements)",
