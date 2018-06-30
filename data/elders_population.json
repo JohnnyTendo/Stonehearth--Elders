@@ -7,7 +7,7 @@
    "post_selection_description": "i18n(elders:kingdom.post_selection_description)",
    "image": "/elders/data/images/elders_400x300.png",
    "story_board_image": "/elders/data/images/story_board_image.png",
-   "starting_talisman": "stonehearth:carpenter:talisman",
+   "starting_talisman": "elders:jobs:carpenter:talisman",
    "starting_resource": "stonehearth:resources:wood:oak_log",
    "initial_town_name": "i18n(elders:kingdom.initial_town_name)",
    "camp_standard": "elders:camp_standard",

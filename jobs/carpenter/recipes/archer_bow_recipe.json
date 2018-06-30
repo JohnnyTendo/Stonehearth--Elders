@@ -6,7 +6,7 @@
    "description": "i18n(stonehearth:jobs.carpenter.recipes.archer_bow_recipe.description)",
    "flavor": "",
    "portrait": "/stonehearth/entities/weapons/bow/bow.png",
-   "workshop": "stonehearth:carpenter:toolbench",
+   "workshop": "stonehearth:carpenter:workbench",
    "level_requirement": 4,
    "ingredients": [
       {

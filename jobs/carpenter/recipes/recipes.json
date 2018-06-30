@@ -6,264 +6,39 @@
          "recipes": {
             "carpenter_workbench": {
                "recipe": "file(carpenter_workbench_recipe.json)"
-            },
-            "carpenter_toolbench": {
-               "recipe": "file(carpenter_toolbench_recipe.json)"
-            }
-         }
-      },
-      "legendary": {
-         "ordinal": 5,
-         "name": "i18n(stonehearth:jobs.common.recipes.legendary_name)",
-         "recipes": {
-            "bow_valor": {
-               "recipe": "file(legendary_bow_recipe.json)"
-            },
-            "giants_face": {
-               "recipe": "file(legendary_face_recipe.json)"
-            },
-            "titan_ward_wood": {
-               "recipe": "file(titan_ward_wood_recipe.json)"
             }
          }
       },
       "tools": {
-         "ordinal": 10,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.tools_weapons_name)",
+         "ordinal": 2,
+         "name": "i18n(elders:jobs.carpenter.recipes.insignias.category_name)",
          "recipes": {
-            "weaver_spindle": {
-               "recipe": "file(weaver_spindle_recipe.json)"
-            },
             "hoe": {
                "recipe": "file(hoe_recipe.json)"
             },
-            "mason_chisel": {
-               "recipe": "file(mason_chisel_recipe.json)"
-            },
             "wooden_sword": {
                "recipe": "file(wooden_sword_recipe.json)"
-            },
-            "shepherd_crook": {
-               "recipe": "file(shepherds_crook_recipe.json)"
             },
             "herbalist_staff": {
                "recipe": "file(herbalist_staff_recipe.json)"
             },
             "archer_bow": {
                "recipe": "file(archer_bow_recipe.json)"
-            }
-         }
-      },
-      "storage": {
-         "ordinal": 20,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.storage_name)",
-         "recipes": {
-            "small_crate": {
-               "recipe": "file(small_crate_recipe.json)"
             },
-            "large_crate": {
-               "recipe": "file(large_crate_recipe.json)"
+            "carpenter_saw": {
+               "recipe": "file(carpenter_saw_recipe.json)"
             },
-            "leather_bound_chest": {
-               "recipe": "file(leather_bound_chest_recipe.json)"
+            "cook_spoon": {
+               "recipe": "file(cook_spoon_recipe.json)"
             },
-            "log_pile": {
-               "recipe": "file(log_pile_recipe.json)"
+            "engineer_wrench": {
+               "recipe": "file(engineer_wrench_recipe.json)"
             },
-            "ornate_leather_bound_chest": {
-               "recipe": "file(ornate_leather_bound_chest_recipe.json)"
+            "knights_shield": {
+               "recipe": "file(knights_shield_recipe.json)"
             },
-            "output_box_wood": {
-               "recipe": "file(output_box_wood_recipe.json)"
-            },
-            "input_shelf_ground_wood": {
-               "recipe": "file(input_shelf_ground_wood_recipe.json)"
-            },
-            "input_shelf_wall_wood": {
-               "recipe": "file(input_shelf_wall_wood_recipe.json)"
-            }
-         }
-      },
-      "armor": {
-         "ordinal": 50,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.armor_name)",
-         "recipes": {
-            "wooden_shield": {
-               "recipe": "file(wooden_shield_recipe.json)"
-            },
-            "recurve_bow": {
-               "recipe": "file(recurve_bow_recipe.json)"
-            }
-         }
-      },
-      "utility": {
-         "ordinal": 60,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.utility_name)",
-         "recipes": {
-            "safety_standard": {
-               "recipe": "file(safety_standard_recipe.json)"
-            },
-            "blue_market_stall": {
-               "recipe": "file(blue_market_stall_recipe.json)"
-            },
-            "market_shelf_tall_ground_wood": {
-               "recipe": "file(market_shelf_tall_ground_wood.json)"
-            },
-            "mountains_windchime": {
-               "recipe": "file(mountains_windchime_recipe.json)"
-            }
-         }
-      },
-      "building_parts": {
-         "ordinal": 70,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.building_parts_name)",
-         "recipes": {
-            "wooden_door": {
-               "recipe": "file(wooden_door_recipe.json)"
-            },
-            "wooden_door_2": {
-               "recipe": "file(wooden_door_2_recipe.json)"
-            },
-            "wooden_double_door": {
-               "recipe": "file(wooden_double_door_recipe.json)"
-            },
-            "wooden_window_frame": {
-               "recipe": "file(wooden_window_frame_recipe.json)"
-            },
-            "wooden_window_frame_tall": {
-               "recipe": "file(wooden_window_frame_tall_recipe.json)"
-            },
-            "wooden_window_frame_wide": {
-               "recipe": "file(wooden_window_frame_wide_recipe.json)"
-            },
-            "wooden_diamond_window": {
-               "recipe": "file(wooden_diamond_window_recipe.json)"
-            },
-            "wooden_wall_lantern": {
-               "recipe": "file(wooden_wall_lantern_recipe.json)"
-            },
-            "wooden_garden_lantern": {
-               "recipe": "file(wooden_garden_lantern_recipe.json)"
-            },
-            "picket_fence": {
-               "recipe": "file(picket_fence_recipe.json)"
-            },
-            "picket_fence_gate": {
-               "recipe": "file(picket_fence_gate_recipe.json)"
-            },
-            "wooden_sign": {
-               "recipe": "file(wooden_sign_recipe.json)"
-            },
-            "wooden_sign_carpenter": {
-               "recipe": "file(wooden_sign_carpenter_recipe.json)"
-            },
-            "wooden_sign_inn": {
-               "recipe": "file(wooden_sign_inn_recipe.json)"
-            },
-            "window_box_brightbell": {
-               "recipe": "file(window_box_brightbell_recipe.json)"
-            },
-            "window_box_frostsnap": {
-               "recipe": "file(window_box_frostsnap_recipe.json)"
-            },
-            "wooden_tunnel_door": {
-               "recipe": "file(wooden_tunnel_door_recipe.json)"
-            },
-            "ornate_wooden_tunnel_door": {
-               "recipe": "file(ornate_wooden_tunnel_door_recipe.json)"
-            },
-            "ornate_picket_fence_gate": {
-               "recipe": "file(ornate_picket_fence_gate_recipe.json)"
-            },
-            "ornate_picket_fence": {
-               "recipe": "file(ornate_picket_fence_recipe.json)"
-            },
-            "ornate_wooden_garden_lantern": {
-               "recipe": "file(ornate_wooden_garden_lantern_recipe.json)"
-            },
-            "ornate_wooden_wall_lantern": {
-               "recipe": "file(ornate_wooden_wall_lantern_recipe.json)"
-            },
-            "ornate_wooden_double_door": {
-               "recipe": "file(ornate_wooden_double_door_recipe.json)"
-            },
-            "ornate_wooden_door": {
-               "recipe": "file(ornate_wooden_door_recipe.json)"
-            },
-            "door_carpenter": {
-               "recipe": "file(door_carpenter_recipe.json)"
-            },
-            "fence_brightbell": {
-               "recipe": "file(fence_brightbell_recipe.json)"
-            },
-            "fence_frostsnap": {
-               "recipe": "file(fence_frostsnap_recipe.json)"
-            },
-            "sign_carpenter": {
-               "recipe": "file(sign_carpenter_recipe.json)"
-            }
-         }
-      },
-      "furniture": {
-         "ordinal": 80,
-         "name": "i18n(stonehearth:jobs.carpenter.recipes.furniture_name)",
-         "recipes": {
-            "simple_wooden_chair": {
-               "recipe": "file(simple_wooden_chair_recipe.json)"
-            },
-            "comfy_chair": {
-               "recipe": "file(comfy_chair_recipe.json)"
-            },
-            "arch_backed_chair": {
-               "recipe": "file(arch_backed_chair_recipe.json)"
-            },
-            "table_for_one": {
-               "recipe": "file(table_for_one_recipe.json)"
-            },
-            "dining_table": {
-               "recipe": "file(dining_table_recipe.json)"
-            },
-            "mean_bed": {
-               "recipe": "file(not_much_of_a_bed_recipe.json)"
-            },
-            "comfy_bed": {
-               "recipe": "file(comfy_bed_recipe.json)"
-            },
-            "bench": {
-               "recipe": "file(bench_recipe.json)"
-            },
-            "dresser": {
-               "recipe": "file(dresser_recipe.json)"
-            },
-            "writing_desk": {
-               "recipe": "file(writing_desk_recipe.json)"
-            },
-            "ornate_bench": {
-               "recipe": "file(ornate_bench_recipe.json)"
-            },
-            "ornate_comfy_bed": {
-               "recipe": "file(ornate_comfy_bed_recipe.json)"
-            },
-            "ornate_dining_table": {
-               "recipe": "file(ornate_dining_table_recipe.json)"
-            },
-            "ornate_table_for_one": {
-               "recipe": "file(ornate_table_for_one_recipe.json)"
-            },
-            "ornate_dresser": {
-               "recipe": "file(ornate_dresser_recipe.json)"
-            },
-            "ornate_writing_desk": {
-               "recipe": "file(ornate_writing_desk_recipe.json)"
-            },
-            "ornate_comfy_chair": {
-               "recipe": "file(ornate_comfy_chair_recipe.json)"
-            },
-            "wooden_chair": {
-               "recipe": "file(wooden_chair_recipe.json)"
-            },
-            "ornate_wooden_chair": {
-               "recipe": "file(ornate_wooden_chair_recipe.json)"
+            "cleric_tome": {
+               "recipe": "file(cleric_tome_recipe.json)"
             }
          }
       }

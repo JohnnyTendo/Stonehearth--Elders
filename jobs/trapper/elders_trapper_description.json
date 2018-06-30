@@ -1,8 +1,4 @@
 {
    "mixins": "stonehearth:jobs:trapper",
-   "talisman_uri": "elders:jobs:trapper:talisman",
-   "equipment": {
-		"torso": "file(trapper_outfit)",
-      "mainhand": "elders:jobs:trapper:knife"
-   }
+   "enabled": false
 }

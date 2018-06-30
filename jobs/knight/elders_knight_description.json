@@ -3,6 +3,7 @@
    "talisman_uri": "elders:jobs:knight:talisman",
    "display_name": "i18n(elders:jobs.knight.knight_description.display_name)",
    "description": "i18n(elders:jobs.knight.knight_description.description)",
+   "requirements": "i18n(elders:jobs.knight.knight_description.requirements)",
    "equipment": {
       "torso": "file(knight_outfit/knight_outfit.json)",
       "helmet": "file(knight_outfit/knight_helm.json)"
