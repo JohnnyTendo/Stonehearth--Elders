@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 3,
+   "recipe_name": "i18n(elders:jobs.carpenter.carpenter_saw.display_name)",
+   "description": "i18n(elders:jobs.carpenter.carpenter_saw.description)",
+   "flavor": "",
+   "portrait": "/elders/jobs/carpenter/carpenter_saw/carpenter_saw.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 1
+      },
+      {
+         "material": "wood resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "elders:jobs:carpenter:talisman"
+      }
+   ]
+}

@@ -1,9 +1,13 @@
 {
    "mixins": "stonehearth:jobs:cleric",
    "talisman_uri": "elders:jobs:cleric:tome",
+   "display_name": "i18n(elders:jobs.cleric.cleric_description.display_name)",
+   "description": "i18n(elders:jobs.cleric.cleric_description.description)",
+   "requirements": "i18n(elders:jobs.cleric.cleric_description.requirements)",
    "equipment": {
       "torso": "file(cleric_outfit/cleric_outfit.json)",
       "helmet": "file(cleric_outfit/cleric_helm.json)",
       "mainhand": "elders:jobs:cleric:tome"
-   }
+   },
+   "icon": "file(images/icon.png)"
 }

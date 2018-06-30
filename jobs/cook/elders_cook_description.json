@@ -1,5 +1,8 @@
 {
    "mixins": "stonehearth:jobs:cook",
+   "display_name": "i18n(elders:jobs.cook.cook_description.display_name)",
+   "description": "i18n(elders:jobs.cook.cook_description.description)",
+   "requirements": "i18n(elders:jobs.cook.cook_description.requirements)",
    "equipment": {
       "torso": "file(cook_outfit/cook_outfit.json)"
    },

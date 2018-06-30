@@ -9,5 +9,6 @@
 			"elders:jobs:worker:mining_pick",
 			"elders:jobs:worker:worker_hammer"
 		]
-   }
+   },
+   "icon": "file(images/icon.png)"
 }

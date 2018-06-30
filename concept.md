@@ -1,4 +1,5 @@
 # **To-Do:**
+## really need to update the Concept!
 ## [X] Rename
 		[X] stonegolems to Oreads
 		[X] entlings to Dryads

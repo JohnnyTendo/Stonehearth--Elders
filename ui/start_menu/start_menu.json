@@ -1,0 +1,285 @@
+{
+   "town_menu": {
+      "name": "i18n(stonehearth:ui.game.menu.town_menu.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.town_menu.description)",
+      "class": "dock",
+      "icon": "file(town.png)",
+      "hotkey_action": "town:overview",
+      "game_mode": "normal",
+      "clickSound": "stonehearth:sounds:banner_grab"
+   },
+   "citizen_manager": {
+      "name": "i18n(stonehearth:ui.game.menu.citizen_manager.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.citizen_manager.description)",
+      "class": "dock",
+      "icon": "file(citizens.png)",
+      "hotkey_action": "citizen:manager",
+      "game_mode": "normal",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:jobs_close",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:jobs_open"
+   },
+   "custom_building_new": {
+      "name": "i18n(stonehearth:ui.game.menu.build_menu.items.custom_building.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.build_menu.items.custom_building.description)",
+      "class": "button",
+      "icon": "file(new_builder.png)",
+      "hotkey_action": "build:menu",
+      "game_mode": "build",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:wash_out",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:wash_in",
+      "has_custom_menu": true
+   },
+   "place_menu": {
+      "name": "i18n(stonehearth:ui.game.menu.place_menu.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.place_menu.description)",
+      "class": "dock",
+      "icon": "file(place_item.png)",
+      "hotkey_action": "place:menu",
+      "game_mode": "place",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:wash_out",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:wash_in",
+      "items": {
+         "place_item": {
+            "name": "i18n(stonehearth:ui.game.menu.place_menu.items.place_item.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.place_menu.items.place_item.description)",
+            "class": "button",
+            "icon": "file(place_item.png)",
+            "sticky": true,
+            "hotkey_action": "build:place"
+         },
+         "build_ladder": {
+            "name": "i18n(stonehearth:ui.game.menu.place_menu.items.build_ladder.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.place_menu.items.build_ladder.description)",
+            "class": "button",
+            "icon": "file(build_ladder.png)",
+            "sticky": true,
+            "hotkey_action": "build:ladder"
+         }
+      }
+   },
+   "harvest_menu": {
+      "name": "i18n(stonehearth:ui.game.menu.harvest_menu.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.harvest_menu.description)",
+      "class": "dock",
+      "icon": "file(harvest.png)",
+      "hotkey_action": "harvest:menu",
+      "game_mode": "normal",
+      "clickSound": "stonehearth:sounds:ui:start_menu:harvest_pickup",
+      "items": {
+         "harvest": {
+            "name": "i18n(stonehearth:ui.game.menu.harvest_menu.items.harvest.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.harvest_menu.items.harvest.description)",
+            "class": "button",
+            "icon": "file(harvest_cmd.png)",
+            "sticky": true,
+            "hotkey_action": "harvest:harvest"
+         },
+         "mine_basic": {
+            "name": "i18n(stonehearth:ui.game.menu.harvest_menu.items.mine_basic.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.harvest_menu.items.mine_basic.description)",
+            "class": "button",
+            "icon": "file(mine.png)",
+            "sticky": true,
+            "hotkey_action": "harvest:mine"
+         },
+         "mine_custom": {
+            "name": "i18n(stonehearth:ui.game.menu.harvest_menu.items.mine_custom.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.harvest_menu.items.mine_custom.description)",
+            "class": "button",
+            "icon": "file(mine_block_new.png)",
+            "sticky": true,
+            "hotkey_action": "harvest:mine_custom"
+         },
+         "cancel_task": {
+            "name": "i18n(stonehearth:ui.game.menu.harvest_menu.items.cancel_task.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.harvest_menu.items.cancel_task.description)",
+            "class": "button",
+            "icon": "file(cancel.png)",
+            "sticky": true,
+            "hotkey_action": "harvest:cancel"
+         },
+         "loot_item": {
+            "name": "i18n(stonehearth:ui.game.menu.harvest_menu.items.loot_item.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.harvest_menu.items.loot_item.description)",
+            "class": "button",
+            "icon": "file(loot.png)",
+            "sticky": true,
+            "hotkey_action": "harvest:loot"
+         },
+         "clear_item": {
+            "name": "i18n(stonehearth:ui.game.menu.harvest_menu.items.clear_item.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.harvest_menu.items.clear_item.description)",
+            "class": "button",
+            "icon": "file(clear.png)",
+            "sticky": true,
+            "hotkey_action": "harvest:clear"
+         }
+      }
+   },
+   "zone_menu": {
+      "name": "i18n(stonehearth:ui.game.menu.zone_menu.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.zone_menu.description)",
+      "class": "dock",
+      "icon": "file(zone.png)",
+      "hotkey_action": "zone:menu",
+      "game_mode": "zones",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:wash_out",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:wash_in",
+      "items": {
+         "create_stockpile": {
+            "name": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_stockpile.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_stockpile.description)",
+            "class": "button",
+            "icon": "file(zone_stockpile.png)",
+            "sticky": true,
+            "hotkey_action": "zone:stockpile"
+         },
+         "create_farm": {
+            "name": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_farm.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_farm.description)",
+            "required_job": "stonehearth:jobs:farmer",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.zone_menu.items.create_farm.required_job_text)",
+            "class": "button",
+            "icon": "file(zone_farm.png)",
+            "sticky": true,
+            "hotkey_action": "zone:farm"
+         }
+      }
+   },
+   "crafter_menu": {
+      "name": "i18n(stonehearth:ui.game.menu.crafter_menu.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.crafter_menu.description)",
+      "class": "dock",
+      "icon": "file(dock_crafters.png)",
+      "hotkey_action": "craft:menu",
+      "game_mode": "normal",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:wash_out",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:wash_in",
+      "items": {
+         "carpenter": {
+            "name": "i18n(stonehearth:ui.game.menu.crafter_menu.items.carpenter.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.crafter_menu.items.carpenter.description)",
+            "class": "button",
+            "required_job": "stonehearth:jobs:carpenter",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.crafter_menu.items.carpenter.required_job_text)",
+            "icon": "file(/jobs/carpenter/images/carpenter_menu_icon.png)",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:carpenter"
+         },
+         "cook": {
+            "name": "i18n(stonehearth:ui.game.menu.crafter_menu.items.cook.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.crafter_menu.items.cook.description)",
+            "class": "button",
+            "required_job": "stonehearth:jobs:cook",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.crafter_menu.items.cook.required_job_text)",
+            "icon": "file(/jobs/cook/images/cook_menu_icon.png)",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:cook"
+         },
+         "herbalist": {
+            "name": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.description)",
+            "class": "button",
+            "required_job": "stonehearth:jobs:herbalist",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.crafter_menu.items.herbalist.required_job_text)",
+            "icon": "file(/jobs/herbalist/images/herbalist_menu_icon.png)",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:herbalist"
+         },
+         "engineer": {
+            "name": "i18n(stonehearth:ui.game.menu.crafter_menu.items.engineer.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.crafter_menu.items.engineer.description)",
+            "class": "button",
+            "required_job": "stonehearth:jobs:engineer",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.crafter_menu.items.engineer.required_job_text)",
+            "icon": "file(/jobs/engineer/images/engineer_menu_icon.png)",
+            "sticky": true,
+            "menu_action": "show_crafter_ui",
+            "hotkey_action": "craft:engineer"
+         }
+      }
+   },
+   "fight_menu": {
+      "name": "i18n(stonehearth:ui.game.menu.fight_menu.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.fight_menu.description)",
+      "class": "dock",
+      "icon": "file(fight.png)",
+      "hotkey_action": "fight:menu",
+      "game_mode": "normal",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:defend_close",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:defend_open",
+      "items": {
+         "town_alert": {
+            "name": "i18n(stonehearth:ui.game.menu.fight_menu.items.town_alert.display_name)",
+            "description": "i18n(stonehearth:ui.game.menu.fight_menu.items.town_alert.description)",
+            "class": "button",
+            "icon": "file(town_defense.png)",
+            "sticky": true,
+            "hotkey_action": "fight:alert"
+         },
+         "party_1" : {
+            "name" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_2.display_name)",
+            "description" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_1.description)",
+            "required_job_role": "combat",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.fight_menu.items.party.required_job_text)",
+            "class" : "button",
+            "icon" : "file(party_1.png)",
+            "sticky" : true,
+            "hotkey_action": "fight:party_1"
+         },
+         "party_2" : {
+            "name" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_2.display_name)",
+            "description" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_2.description)",
+            "required_job_role": "combat",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.fight_menu.items.party.required_job_text)",
+            "class" : "button",
+            "icon" : "file(party_2.png)",
+            "sticky" : true,
+            "hotkey_action": "fight:party_2"
+         },
+         "party_3" : {
+            "name" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_2.display_name)",
+            "description" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_2.description)",
+            "required_job_role": "combat",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.fight_menu.items.party.required_job_text)",
+            "class" : "button",
+            "icon" : "file(party_3.png)",
+            "sticky" : true,
+            "hotkey_action": "fight:party_3"
+         },
+         "party_4" : {
+            "name" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_2.display_name)",
+            "description" : "i18n(stonehearth:ui.game.menu.fight_menu.items.party_2.description)",
+            "required_job_role": "combat",
+            "required_job_text": "i18n(stonehearth:ui.game.menu.fight_menu.items.party.required_job_text)",
+            "class" : "button",
+            "icon" : "file(party_4.png)",
+            "sticky" : true,
+            "hotkey_action": "fight:party_4"
+         }
+      }
+   },
+   "multiplayer_menu": {
+      "name": "i18n(stonehearth:ui.game.multiplayer_menu.display_name)",
+      "description": "i18n(stonehearth:ui.game.multiplayer_menu.description)",
+      "class": "dock",
+      "icon": "file(multiplayer_menu.png)",
+      "hotkey_action": "multiplayer:menu",
+      "game_mode": "normal",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:jobs_close",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:jobs_open"
+   },
+   "bulletin_manager": {
+      "name": "i18n(stonehearth:ui.game.menu.bulletin_manager.display_name)",
+      "description": "i18n(stonehearth:ui.game.menu.bulletin_manager.description)",
+      "class": "dock",
+      "icon": "file(manage_bulletins.png)",
+      "hotkey_action": "bulletin:manager",
+      "game_mode": "normal",
+      "menuHideSound": "stonehearth:sounds:ui:start_menu:jobs_close",
+      "menuShowSound": "stonehearth:sounds:ui:start_menu:jobs_open"
+   }
+}

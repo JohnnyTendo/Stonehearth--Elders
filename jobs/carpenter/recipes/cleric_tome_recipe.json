@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 120,
+   "work_units": 10,
+   "recipe_name": "i18n(elders:jobs.cleric.cleric_tome.display_name)",
+   "description": "i18n(elders:jobs.cleric.cleric_tome.description)",
+   "flavor": "",
+   "portrait": "/elders/jobs/cleric/cleric_tome/cleric_tome.png",
+   "workshop": "stonehearth:carpenter:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "herb resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "elders:jobs:cleric:tome"
+      }
+   ]
+}

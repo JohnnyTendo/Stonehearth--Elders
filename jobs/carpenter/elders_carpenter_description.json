@@ -1,9 +1,15 @@
 {
    "mixins": "stonehearth:jobs:carpenter",
+   "talisman_uri": "elders:jobs:carpenter:talisman",
+   "display_name": "i18n(elders:jobs.carpenter.carpenter_description.display_name)",
+   "description": "i18n(elders:jobs.carpenter.carpenter_description.description)",
+   "requirements": "i18n(elders:jobs.carpenter.carpenter_description.requirements)",
    "equipment": {
       "torso": "file(carpenter_outfit)",
-	  "helmet": "file(carpenter_outfit/carpenter_helm.json)"
+      "mainhand": "elders:jobs:carpenter:saw",
+	    "helmet": "file(carpenter_outfit/carpenter_helm.json)"
    },
+   "icon": "file(images/icon.png)",
    "crafter": {
       "recipe_list": "/elders/jobs/carpenter/recipes/recipes.json"
    }

@@ -1,13 +1,13 @@
 {
-   "mixintypes": { 
-   "loadouts" : "override" 
+   "mixintypes": {
+   "loadouts" : "override"
    },
    "type": "index",
    "random_pets": [],
    "loadouts": [
       {
          "ordinal": 1,
-		 "alias": "stonehearth:data:loadouts:food_for_days",
+		     "alias": "stonehearth:data:loadouts:food_for_days",
          "display_name": "i18n(stonehearth:data.loadouts.food_for_days.display_name)",
          "description": "i18n(stonehearth:data.loadouts.food_for_days.description)",
          "tooltip": "i18n(stonehearth:data.loadouts.food_for_days.tooltip)",
@@ -63,13 +63,6 @@
          "enabled": true,
          "content": [
             {
-               "display_name": "i18n(stonehearth:jobs.trapper.trapper_description.display_name)",
-               "type": "entity",
-               "uri": "elders:jobs:trapper:talisman",
-               "icon": "file(images/items/trapper_knife.png)",
-               "amount": 1
-            },
-            {
                "display_name": "i18n(stonehearth:jobs.footman.footman_description.display_name)",
                "type": "entity",
                "uri": "stonehearth:footman:wooden_sword_talisman",
@@ -109,13 +102,6 @@
          "seal": "file(images/money_solves_all_problems/seal.png)",
          "enabled": true,
          "content": [
-            {
-               "display_name": "i18n(stonehearth:jobs.weaver.weaver_description.display_name)",
-               "type": "entity",
-               "uri": "elders:jobs:weaver:talisman",
-               "icon": "file(images/items/weaver_spindle.png)",
-               "amount": 1
-            },
             {
                "display_name": "i18n(stonehearth:data.loadouts.items.berries)",
                "type": "entity",
