@@ -2,5 +2,6 @@
 Stonehearth Mod
 Status: WIP
 
-No description here. If you found this one, I'm impressed. 
-ToDo: Add something useful in here.
+No description here.
+
+To see what's next check the [concept](https://github.com/JohnnyTendo/Stonehearth--Elders/blob/master/concept.md).
