@@ -6,7 +6,8 @@
    "requirements": "i18n(elders:jobs.footman.footman_description.requirements)",
    "equipment": {
       "torso": "file(footman_outfit/footman_outfit.json)",
-      "helmet": "file(footman_outfit/footman_helm.json)"
+      "helmet": "file(footman_outfit/footman_helm.json)",
+      "mainhand": "elders:jobs:footman:wooden_sword"
    },
    "icon": "file(images/icon.png)"
 }

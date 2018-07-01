@@ -54,6 +54,7 @@
 		"jobs:knight:outfit": "file(jobs/knight/knight_outfit/knight_outfit.json)",
 		"jobs:knight:helm": "file(jobs/knight/knight_outfit/knight_helm.json)",
 		"jobs:knight:talisman": "file(jobs/knight/knight_shield/knight_shield_talisman.json)",
+		"jobs:knight:shield": "file(jobs/knight/knight_shield/knight_shield.json)",
 		"mixins:knight_outfit": "file(jobs/knight/mixins/knight_outfit.json)",
 		"jobs:worker": "file(jobs/worker/elders_worker_description.json)",
 		"jobs:worker:outfit": "file(jobs/worker/worker_outfit/worker_outfit.json)",

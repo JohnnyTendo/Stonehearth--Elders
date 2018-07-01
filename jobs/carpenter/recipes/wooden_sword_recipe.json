@@ -5,7 +5,7 @@
    "recipe_name": "i18n(elders:jobs.footman.wooden_sword.display_name)",
    "description": "i18n(elders:jobs.footman.wooden_sword.description)",
    "flavor": "i18n(elders:jobs.footman.wooden_sword.flavor)",
-   "portrait": "/elders/entities/weapons/wooden_sword/wooden_sword.png",
+   "portrait": "/elders/jobs/footman/wooden_sword/wooden_sword.png",
    "workshop": "stonehearth:carpenter:workbench",
    "level_requirement": 1,
    "ingredients": [

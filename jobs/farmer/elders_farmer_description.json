@@ -5,7 +5,8 @@
    "description": "i18n(elders:jobs.farmer.farmer_description.description)",
    "requirements": "i18n(elders:jobs.farmer.farmer_description.requirements)",
    "equipment": {
-      "torso": "file(farmer_outfit/farmer_outfit.json)"
+      "torso": "file(farmer_outfit/farmer_outfit.json)",
+      "mainhand": "elders:jobs:farmer:hoe"
    },
    "icon": "file(images/icon.png)"
 }

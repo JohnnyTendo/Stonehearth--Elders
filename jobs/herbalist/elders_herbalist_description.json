@@ -6,7 +6,8 @@
    "requirements": "i18n(elders:jobs.herbalist.herbalist_description.requirements)",
    "equipment": {
       "torso": "file(herbalist_outfit/herbalist_outfit.json)",
-      "helmet": "file(herbalist_outfit/herbalist_helm.json)"
+      "helmet": "file(herbalist_outfit/herbalist_helm.json)",
+      "mainhand": "elders:jobs:herbalist:staff"
    },
    "icon": "file(images/icon.png)",
    "crafter": {

@@ -8,19 +8,15 @@
 			[] carpenter
 			[] herbalist
 			[] cook
+			[] engineer
 ##### [] rework elem. defender
 			[] turrets
-			[] talisman
 ##### [] rework whisperer
 			[] items
-##### [] rework restorer
-			[] talisman
 ##### [] rework gatherer
 			[] crops
 ##### [] rework refiner
 			[] items
-##### [] rework protector
-			[] talisman
 ##### [] rework archer
 			[] rename
 			[] talisman
