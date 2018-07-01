@@ -1,0 +1,15 @@
+{
+   "crops_by_kingdom": {
+      "elders:kingdoms:elders": {
+         "fallow": true,
+         "mana_bud": true,
+         "carrot": false,
+         "golden_gourd": false,
+         "watermelon": false,
+         "cactus_flower": false,
+         "corn": false,
+         "acacia_tree": false,
+         "cactus_tree": false
+      }
+   }
+}

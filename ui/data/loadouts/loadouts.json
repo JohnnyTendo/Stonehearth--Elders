@@ -18,7 +18,7 @@
             {
                "display_name": "i18n(stonehearth:jobs.farmer.farmer_description.display_name)",
                "type": "entity",
-               "uri": "stonehearth:farmer:talisman",
+               "uri": "elders:jobs:farmer:talisman",
                "icon": "file(images/items/farmer_hoe.png)",
                "amount": 1
             },
@@ -65,14 +65,14 @@
             {
                "display_name": "i18n(stonehearth:jobs.footman.footman_description.display_name)",
                "type": "entity",
-               "uri": "stonehearth:footman:wooden_sword_talisman",
+               "uri": "elders:jobs:footman:wooden_sword_talisman",
                "icon": "file(images/items/wooden_sword.png)",
                "amount": 1
             },
             {
                "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_description.display_name)",
                "type": "entity",
-               "uri": "stonehearth:herbalist:talisman",
+               "uri": "elders:jobs:herbalist:talisman",
                "icon": "file(images/items/herbalist_staff.png)",
                "amount": 1
             },

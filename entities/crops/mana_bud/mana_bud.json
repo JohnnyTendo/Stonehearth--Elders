@@ -1,0 +1,90 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mana_bud_4.qb)"
+            ]
+         },
+         "mana_bud_1": {
+            "models": [
+               "file(mana_bud_1.qb)"
+            ]
+         },
+         "mana_bud_2": {
+            "models": [
+               "file(mana_bud_2.qb)"
+            ]
+         },
+         "mana_bud_3": {
+            "models": [
+               "file(mana_bud_3.qb)"
+            ]
+         },
+         "mana_bud_4": {
+            "models": [
+               "file(mana_bud_4.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.13
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 },
+         "mob_collision_type": "clutter"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "mana_bud_4": "stonehearth:food:corn:corn_basket"
+         },
+         "harvest_threshhold": "mana_bud_4",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
+      },
+      "stonehearth:growing": {
+         "growth_period": "8h",
+         "growth_stages": [
+            {
+               "model_name": "mana_bud_1",
+               "display_name": "i18n(elders:entities.crops.mana_bud.growth_stage.001.name)",
+               "description": "i18n(elders:entities.crops.mana_bud.growth_stage.001.description)",
+            },
+            {
+               "model_name": "mana_bud_2",
+               "display_name": "i18n(elders:entities.crops.mana_bud.growth_stage.002.name)",
+               "description": "i18n(elders:entities.crops.mana_bud.growth_stage.002.description)",
+            },
+            {
+               "model_name": "mana_bud_3",
+               "display_name": "i18n(elders:entities.crops.mana_bud.growth_stage.003.name)",
+               "description": "i18n(elders:entities.crops.mana_bud.growth_stage.003.description)",
+            },
+            {
+               "model_name": "mana_bud_4",
+               "display_name": "i18n(elders:entities.crops.mana_bud.growth_stage.004.name)",
+               "description": "i18n(elders:entities.crops.mana_bud.growth_stage.004.description)",
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 2,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(elders:entities.crops.mana_bud.display_name)",
+         "description": "i18n(elders:entities.crops.mana_bud.description)",
+         "icon": "file(icon.png)",
+         "material_tags": "crop mana"
+      },
+      "stonehearth:appeal": {
+         "appeal": 1
+      }
+   }
+}

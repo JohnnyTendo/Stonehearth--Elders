@@ -14,7 +14,8 @@
 ##### [] rework whisperer
 			[] items
 ##### [] rework gatherer
-			[] crops
+			[] 2nd crop
+			[] 3rd crop
 ##### [] rework refiner
 			[] items
 ##### [] rework archer

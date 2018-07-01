@@ -8,5 +8,9 @@
       "torso": "file(farmer_outfit/farmer_outfit.json)",
       "mainhand": "elders:jobs:farmer:hoe"
    },
-   "icon": "file(images/icon.png)"
+   "icon": "file(images/icon.png)",
+   "xp_rewards": {
+      "base_exp_per_harvest": 4,
+      "elders:crops:mana_bud": 10
+   }
 }

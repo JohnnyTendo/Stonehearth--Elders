@@ -15,6 +15,8 @@
 	  "oread": "file(entities/humans/male/oread.json)",
 		"buffs:unleashed": "file(data/buffs/unleashed/unleashed_buff.json)",
 
+		"crops:mana_bud": "file(entities/crops/mana_bud/mana_bud.json)",
+
 	  "jobs:index": "file(jobs/index.json)",
 		"jobs:archer": "file(jobs/archer/elders_archer_description.json)",
 		"jobs:cook": "file(jobs/cook/elders_cook_description.json)",
@@ -30,6 +32,8 @@
 		"jobs:farmer:outfit": "file(jobs/farmer/farmer_outfit/farmer_outfit.json)",
 		"jobs:farmer:talisman": "file(jobs/farmer/farmer_hoe/farmer_hoe_talisman.json)",
 		"jobs:farmer:hoe": "file(jobs/farmer/farmer_hoe/farmer_hoe.json)",
+		"jobs:farmer:initial_crops": "file(data/elders_initial_crops.json)",
+		"jobs:farmer:all_crops": "file(data/elders_all_crops.json)",
 		"jobs:carpenter": "file(jobs/carpenter/elders_carpenter_description.json)",
 		"jobs:carpenter:outfit": "file(jobs/carpenter/carpenter_outfit/carpenter_outfit.json)",
 		"jobs:carpenter:helm": "file(jobs/carpenter/carpenter_outfit/carpenter_helm.json)",
@@ -67,7 +71,9 @@
 	},
 	"mixintos": {
 		"stonehearth:playable_kingdom_index": "file(data/elders_playable_kingdom_index.json)",
-		"stonehearth:data:gm_index": "elders:data:gm_index"
+		"stonehearth:data:gm_index": "elders:data:gm_index",
+		"stonehearth:farmer:initial_crops": "elders:jobs:farmer:initial_crops",
+		"stonehearth:farmer:all_crops": "elders:jobs:farmer:all_crops"
 	},
 	"controllers": {
 	},

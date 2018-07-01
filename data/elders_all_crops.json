@@ -1,0 +1,9 @@
+{
+   "crops": {
+      "mana_bud": {
+         "crop_type": "elders:crops:mana_bud",
+         "ordinal": 18,
+         "level_requirement": 0
+      }
+    }
+}
