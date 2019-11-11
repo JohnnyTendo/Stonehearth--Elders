@@ -3,7 +3,7 @@
 			[] change firepit (as override in ui sub-mod)
 ##### [] Food
 			[] rework Food to Prana
-			[] rework Crops to mana-buds
+			[X] rework Crops to mana-buds
 ##### [] Workbenches
 			[] carpenter
 			[] herbalist

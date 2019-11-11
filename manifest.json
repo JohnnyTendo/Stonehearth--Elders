@@ -1,8 +1,8 @@
 {
-	"info" : {
+	"info": {
 		"name" : "The Elders",
-		"namespace" : "elders",
-		"version" : 3
+		"namespace": "elders",
+		"version": 3
 	},
 	"default_locale": "en",
 	"client_init_script": "file(elders_client)",
